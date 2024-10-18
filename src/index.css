@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbit&family=Oswald:wght@200..700&display=swap');
+
+
+:root {
+  --family-orbit: "Orbit", sans-serif;
+  --family-nunito :"Nunito", sans-serif;
+  --family-oswald :"Oswald", sans-serif;
+  --family-inter :"Inter", sans-serif;
+  --btn-blue-start: #0D2CB9;
+  --btn-blue-stop: #3B62FF;
+  --heading-blue-start: #3F4EAA;
+  --heading-blue-stop: #BEC6FF;
+  --desc-blue-start: #4B669F;
+  --desc-blue-stop: #052A7A;
+  --text-btn: #2E46FF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ font-family: var(--family-inter);
+}
+
+
+
+body {
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
