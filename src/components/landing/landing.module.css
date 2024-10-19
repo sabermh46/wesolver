@@ -1,0 +1,29 @@
+
+.body {
+    background: url(../../assets/image_2.png); 
+    padding-top: 240px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.landingPage {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    max-width: 1200px;
+    
+}
+
+
+.header_text {
+    font-size: 4rem;
+    background: linear-gradient(to right, var(--heading-blue-start), var(--heading-blue-stop));
+}
+.desc_text {
+    font-size: 3rem;
+    background: linear-gradient(to right, var(--desc-blue-start), var(--desc-blue-stop));
+}
+.header_text, .desc_text {
+    width: max-content;
+    background-clip: text;
+    color: transparent;
+    font-family: var(--family-oswald);
+}

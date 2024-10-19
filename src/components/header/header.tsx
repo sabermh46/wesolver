@@ -40,7 +40,7 @@ const Header: React.FC = () => {
                 <div className={style.links}>
                     { links.map(link=>{
                         return (
-                            <div>{link.name}</div>
+                            <div className={style.link}>{link.name}</div>
                         )
                     })}
                 </div>

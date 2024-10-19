@@ -7,6 +7,10 @@
 
 .header {
      padding: 10px;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     left: 0;
 }
 
 .nav {
@@ -21,6 +25,22 @@
 .links {
     display: flex;
     gap: 20px;
+}
+.link {
+    text-transform: capitalize;
+    cursor: pointer;
+    color: midnightblue;
+    overflow: hidden;
+    background: linear-gradient(to left, midnightblue, midnightblue 50%, rgb(223, 36, 214) 50%);
+    transition: background-position 275ms ease;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+}
+.link:hover {
+    background-position: 0 100%;
 }
 .rightSide {
     display: flex;
