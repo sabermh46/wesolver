@@ -14,7 +14,7 @@ export type sec2type = {
     title: string;
     description: string;
 }
-type sec3type<T> = {
+export type sec3type<T> = {
     image: T,
     title1: T,
     title2: T,

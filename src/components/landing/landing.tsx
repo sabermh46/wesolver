@@ -1,4 +1,4 @@
-import { frontData, sec2type } from "../../util/data";
+import { frontData, sec2type, sec3type } from "../../util/data";
 import Header, { ExclusiveBtn } from "../header/header";
 import style from './landing.module.css'
 
@@ -26,6 +26,8 @@ const LandingPage: React.FC = () => {
                 })
             }
         </div>
+
+        <Section3 {...frontData.sec3}/>
         
     </div>
     </div>
@@ -34,7 +36,7 @@ const LandingPage: React.FC = () => {
 
   export default LandingPage
 
-  const Sec2Card: React.FC<sec2type> = (props)=>{
+const Sec2Card: React.FC<sec2type> = (props)=>{
     const {image, title, description} = props
 
     return(
@@ -42,6 +44,27 @@ const LandingPage: React.FC = () => {
             <img src={image} alt='icon' />
             <h1>{title}</h1>
             <h2>{description}</h2>
+        </div>
+    )
+  }
+
+  const Section3: React.FC<sec3type<string>> = (props)=>{
+    const {image, title1, title2, description, btnText, btnLink} = props
+
+    return(
+        <div className={style.section3}>
+            
+            <div className={style.left}>
+                <img src={image} alt='icon' />
+            </div>
+            <div className={style.right}>
+                <div>
+                    <h1>{title1}</h1>
+                    <h2>{title2}</h2>
+                </div>
+                <p>{description}</p>
+                <ExclusiveBtn text={btnText} link={btnLink} size={2} />
+            </div>
         </div>
     )
   }

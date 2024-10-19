@@ -61,3 +61,52 @@
 .sec2Card > h2 {
     font-size: 18px;
 }
+
+
+
+.section3 {
+    display: flex;
+}
+.section3 > * {
+    flex: 1;
+}
+
+.section3 > .left {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.section3 > .left > img {
+    width: 100%;
+}
+
+.section3 > .right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+    justify-content: center;
+}
+.section3 > .right  h1 {
+    font-size: 44px;
+    background: linear-gradient(to right, var(--desc-blue-start), var(--desc-blue-stop));
+    width: max-content;
+    background-clip: text;
+    
+    color: transparent;
+    font-family: var(--family-oswald);
+}
+.section3 > .right  h2 {
+    font-size: 54px;
+    background: linear-gradient(to right, var(--heading-blue-start), var(--heading-blue-stop));
+    width: max-content;
+    background-clip: text;
+    color: transparent;
+    font-family: var(--family-oswald);
+}
+.section3 > .right > p {
+    font-family: var(--family-orbit);
+    font-size: 14px;
+}

@@ -50,6 +50,7 @@
 }
 
 .exclusiveBtn {
+    width: max-content;
     padding: 8px 24px;
     white-space: nowrap;
     border-top-left-radius: 16px;
