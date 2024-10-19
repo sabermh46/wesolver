@@ -27,3 +27,37 @@
     color: transparent;
     font-family: var(--family-oswald);
 }
+
+.section2 {
+    padding: 150px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.sec2Card {
+    max-width: 450px;
+    flex: 1;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    align-items: center;
+}
+.sec2Card * {
+    font-family: var(--family-nunito);
+    text-align: center;
+}
+.sec2Card > img {
+    max-width: 200px;
+    height: auto;
+}
+.sec2Card > h1 {
+ font-size: 30px;
+ font-weight: 800;
+}
+.sec2Card > h2 {
+    font-size: 18px;
+}

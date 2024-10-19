@@ -9,7 +9,7 @@ import ic5 from '../assets/ic5.png'
 import ic6 from '../assets/ic6.png'
 
 
-type sec2type = {
+export type sec2type = {
     image: string;
     title: string;
     description: string;
