@@ -110,3 +110,52 @@
     font-family: var(--family-orbit);
     font-size: 14px;
 }
+
+
+
+
+.section4 {
+    padding: 50px 0;
+}
+.section4 > h1 {
+    color: #4856C3;
+    text-transform: capitalize;
+    font-size: 55px;
+    font-family: var(--family-oswald);
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+.iconCards {
+    display: grid;
+    padding: 50px 0;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+.iconCard {
+    width: 100%;
+}
+.iconCard > a {
+    display: block;
+    padding-top: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #2E46FF;
+}
+.iconCard > .card {
+    height:250px;
+    background: white;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.333);
+}
+.card > img {
+    width: 100%;
+    aspect-ratio: 1;
+}
+.card h1 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: var(--family-nunito);
+    text-align: center;
+}

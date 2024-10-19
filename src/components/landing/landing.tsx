@@ -1,6 +1,8 @@
-import { frontData, sec2type, sec3type } from "../../util/data";
+import { Link } from "react-router-dom";
+import { frontData, iconDataType, sec2type, sec3type } from "../../util/data";
 import Header, { ExclusiveBtn } from "../header/header";
 import style from './landing.module.css'
+import arrow from '../../assets/Arrow 1.svg'
 
 
 
@@ -28,6 +30,21 @@ const LandingPage: React.FC = () => {
         </div>
 
         <Section3 {...frontData.sec3}/>
+
+        <div className={style.section4}>
+            <h1>
+                {frontData.sec4.title}
+            </h1>
+            <div className={style.iconCards}>
+                {
+                    frontData.sec4.icons.map((iconData, i)=>{
+                        return (
+                            <IconDataType key={i} {...iconData} />
+                        )
+                    })
+                }
+            </div>
+        </div>
         
     </div>
     </div>
@@ -68,3 +85,19 @@ const Sec2Card: React.FC<sec2type> = (props)=>{
         </div>
     )
   }
+
+  const IconDataType: React.FC<iconDataType<string>> = (props)=>{
+    const {image, title, link} = props
+
+    return(
+        <div className={style.iconCard}>
+            
+            <div className={style.card}>
+                <img src={image} alt={title} />
+                <h1>{title.split(' ')[0]} <br /> {title.split(' ')[1]}</h1>
+            </div>
+            <Link to={link}>Details <img src={arrow} alt="" /></Link>
+        </div>
+    )
+  }
+  

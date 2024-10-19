@@ -22,7 +22,7 @@ export type sec3type<T> = {
     btnText: T,
     btnLink: T
 }
-type iconDataType<T> = {
+export type iconDataType<T> = {
     image: T;
   link: T;
   title: T;
@@ -66,7 +66,7 @@ export const frontData:frontDataType = {
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam magna diam, ultricies ut ultricies eu, cursus quis libero. Sed maximus ligula in purus bibendum viverra. Cras sed odio condimentum, finibus sem eu, auctor nisi. Fusce eget nunc tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam magna diam, ultricies ut ultricies eu, cursus quis libero. Sed maximus'
     },
     sec4: {
-        title: '',
+        title: 'easily build your',
         icons: [
             {
                 image: ic1,
