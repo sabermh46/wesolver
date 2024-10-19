@@ -55,10 +55,15 @@ const Header: React.FC = () => {
   export default Header;
 
 
-export const ExclusiveBtn: React.FC<{text: string; link: string;}> =({text, link})=> {
+export const ExclusiveBtn: React.FC<{text: string; link: string; size?: number}> =({text, link, size = 1})=> {
 
     const nav = useNavigate()
   return (
-    <button className={style.exclusiveBtn} onClick={()=>nav(link)}>{text}</button>
+    <button className={style.exclusiveBtn} onClick={()=>nav(link)}
+    style={{
+        padding: `${size*8}px ${size* 24}px`,
+        fontSize: `${size * 14}px`
+    }}
+    >{text}</button>
   )
 }

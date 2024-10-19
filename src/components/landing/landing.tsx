@@ -12,7 +12,7 @@ const LandingPage: React.FC = () => {
 
         <h1 className={style.header_text}>Order Your</h1>
         <h1 className={style.desc_text}>Professional Applications</h1>
-        <ExclusiveBtn text="Join Us" link="" />
+        <ExclusiveBtn text="Join Us" link="" size={2} />
     </div>
     </div>
     )
