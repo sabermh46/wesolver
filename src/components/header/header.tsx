@@ -61,7 +61,7 @@ export const ExclusiveBtn: React.FC<{text: string; link: string; size?: number}>
   return (
     <button className={style.exclusiveBtn} onClick={()=>nav(link)}
     style={{
-        padding: `${size*8}px ${size* 24}px`,
+        padding: `${size===1?size*8 : size*0.5*8}px ${size* 24}px`,
         fontSize: `${size * 14}px`
     }}
     >{text}</button>
