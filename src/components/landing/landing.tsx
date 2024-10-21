@@ -3,11 +3,21 @@ import { frontData, iconDataType, sec2type, sec3type } from "../../util/data";
 import Header, { ExclusiveBtn } from "../header/header";
 import style from './landing.module.css'
 import arrow from '../../assets/Arrow 1.svg'
+import { useEffect } from "react";
 
 
 
 const LandingPage: React.FC = () => {
 
+
+    const level5data: string = frontData.sec3.image
+
+    useEffect(()=>{
+        
+    }, [])
+
+    console.log(level5data);
+    
 
     return (
     <div className={style.body}>
@@ -44,6 +54,20 @@ const LandingPage: React.FC = () => {
                     })
                 }
             </div>
+        </div>
+
+        <div className={style.section5}>
+                <div className={style.parent}>
+                    {
+                        [...Array(10).keys()].map((a, i)=>{
+                            return (
+                                <div key={i} className={style[`div${i+1}`]}>
+                                    <img src={level5data} alt="d" />
+                                </div>)
+                        })
+                    }
+                    
+                </div>
         </div>
         
     </div>
