@@ -2,22 +2,52 @@ import { Link } from "react-router-dom";
 import { frontData, iconDataType, sec2type, sec3type } from "../../util/data";
 import Header, { ExclusiveBtn } from "../header/header";
 import style from './landing.module.css'
+import styles from '../App.module.css'
 import arrow from '../../assets/Arrow 1.svg'
-import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 
+
+interface WorkCardProps {
+    image: string;
+    index: number;
+  }
+
+const WorkCard: React.FC<WorkCardProps> = ({ image, index }) => {
+    const { ref, inView } = useInView({
+        threshold: 0.1,  // Adjust based on when you want to trigger visibility
+        triggerOnce: false,  // Optional: Will only trigger once
+      });
+
+    return (
+      <div
+        ref={ref}  // Attach the observer ref to the element
+        className={`${style[`div${index + 1}`]} ${styles.hidden} ${inView ? styles.visible : ''}`}
+      >
+        <img src={image} alt={`work-${index}`} />
+      </div>
+    );
+  };
+
+  const Section5: React.FC = () => {
+    const level5data: string = frontData.sec3.image;
+  
+    return (
+      <div className={style.section5}>
+        <h1>Our Works</h1>
+        <div className={`${style.parent}`}>
+          {
+            [...Array(10).keys()].map((a, i) => (
+              <WorkCard key={i} image={level5data} index={i} />
+            ))
+          }
+        </div>
+      </div>
+    );
+  };
 
 
 const LandingPage: React.FC = () => {
 
-
-    const level5data: string = frontData.sec3.image
-
-    useEffect(()=>{
-        
-    }, [])
-
-    console.log(level5data);
-    
 
     return (
     <div className={style.body}>
@@ -56,19 +86,7 @@ const LandingPage: React.FC = () => {
             </div>
         </div>
 
-        <div className={style.section5}>
-                <div className={style.parent}>
-                    {
-                        [...Array(10).keys()].map((a, i)=>{
-                            return (
-                                <div key={i} className={style[`div${i+1}`]}>
-                                    <img src={level5data} alt="d" />
-                                </div>)
-                        })
-                    }
-                    
-                </div>
-        </div>
+        <Section5 />
         
     </div>
     </div>
@@ -124,4 +142,8 @@ const Sec2Card: React.FC<sec2type> = (props)=>{
         </div>
     )
   }
+
   
+
+
+

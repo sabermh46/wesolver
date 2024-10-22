@@ -166,7 +166,17 @@
 .section5 {
     padding: 50px 0;
 }
-
+.section5 > h1 {
+    font-size: 4rem;
+    background: linear-gradient(to right, var(--heading-blue-start), var(--heading-blue-stop));
+    width: max-content;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-clip: text;
+    color: transparent;
+    font-family: var(--family-oswald);
+}
 .parent {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
