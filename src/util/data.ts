@@ -20,7 +20,7 @@ export type sec3type<T> = {
     title2: T,
     description: T,
     btnText: T,
-    btnLink: T
+    btnLink: T,
 }
 export type iconDataType<T> = {
     image: T;

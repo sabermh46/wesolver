@@ -110,19 +110,28 @@ const Sec2Card: React.FC<sec2type> = (props)=>{
   const Section3: React.FC<sec3type<string>> = (props)=>{
     const {image, title1, title2, description, btnText, btnLink} = props
 
+    const { ref: imageRef, inView: imageInView } = useInView({threshold: 0.1, triggerOnce: false,});
+    const { ref: h1Ref, inView: h1InView } = useInView({threshold: 0.1, triggerOnce: false,});
+    const { ref: h2Ref, inView: h2InView } = useInView({threshold: 0.1, triggerOnce: false,});
+    const { ref: desRef, inView: desInView } = useInView({threshold: 0.1, triggerOnce: false,});
+    const { ref: btnRef, inView: btnInView } = useInView({threshold: 0.1, triggerOnce: false,});
+
     return(
         <div className={style.section3}>
             
-            <div className={style.left}>
+            <div ref={imageRef} className={`${style.left} ${styles.l} ${styles.hidden} ${imageInView ? styles.visible : ''}`}>
                 <img src={image} alt='icon' />
             </div>
             <div className={style.right}>
                 <div>
-                    <h1>{title1}</h1>
-                    <h2>{title2}</h2>
+                    <h1 ref={h1Ref} className={`${styles.l} ${styles.hidden} ${h1InView ? styles.visible : ''}`}>{title1}</h1>
+                    <h2 ref={h2Ref} className={`${styles.r} ${styles.hidden} ${h2InView ? styles.visible : ''}`}>{title2}</h2>
                 </div>
-                <p>{description}</p>
+                <p ref={desRef} className={`${styles.l} ${styles.hidden} ${desInView ? styles.visible : ''}`}>{description}</p>
+                <div ref={btnRef} className={`${styles.hidden} ${btnInView ? styles.visible : ''}`}>
                 <ExclusiveBtn text={btnText} link={btnLink} size={2} />
+                </div>
+                
             </div>
         </div>
     )
@@ -131,8 +140,13 @@ const Sec2Card: React.FC<sec2type> = (props)=>{
   const IconDataType: React.FC<iconDataType<string>> = (props)=>{
     const {image, title, link} = props
 
+    const { ref, inView } = useInView({
+        threshold: 0.1,  // Adjust based on when you want to trigger visibility
+        triggerOnce: false,  // Optional: Will only trigger once
+      });
     return(
-        <div className={style.iconCard}>
+        <div ref={ref} className={`${style.iconCard} ${styles.hidden} ${inView ? styles.visible : ''}`}
+            style={{transitionDelay: (Math.random()*1)+'s'}}>
             
             <div className={style.card}>
                 <img src={image} alt={title} />

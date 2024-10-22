@@ -1,12 +1,31 @@
 
 
 .hidden {
-    transform: translateY(100px);
+    transform: translate(0, 100px);
     opacity: 0.5;
-    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    transition: transform 0.5s cubic-bezier(.61,.69,.67,1.25), opacity 0.5s ease-out;
   }
   
   .visible {
-    transform: translateY(0);
+    transform: translate(0, 0);
     opacity: 1;
+  }
+  .l.hidden {
+    transform: translate(-100px, 0);
+  }
+  .r.hidden {
+    transform: translate(100px, 0);
+  }
+  .t.hidden {
+    transform: translate(0, -100px);
+  }
+
+  .l.visible {
+    transform: translate(0, 0);
+  }
+  .r.visible {
+    transform: translate(0, 0);
+  }
+  .t.visible {
+    transform: translate(0, 0);
   }

@@ -4,6 +4,7 @@
     padding-top: 240px;
     background-size: 100%;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 .landingPage {
     width: calc(100% - 40px);
