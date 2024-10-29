@@ -44,7 +44,6 @@ const TestimonialAreaThree = () => {
   };
 
   const { sliderRef, toNext, toPrev } = useSwiperArrows();
-  // const paginationRef = useRef();
 
   return (
     <section className="testimonial-area-three">
@@ -76,10 +75,6 @@ const TestimonialAreaThree = () => {
                   onBeforeInit={(swiper) => {
                     sliderRef.current = swiper;
                   }}
-                  // pagination={{
-                  //   el: paginationRef.current, // '.my-custom-pagination-div',
-                  //   clickable: true,
-                  // }}
                 >
                   {[1, 2, 3, 1].map((x) => (
                     <SwiperSlide key={x + Math.random()}>
