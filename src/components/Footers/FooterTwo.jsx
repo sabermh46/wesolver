@@ -37,22 +37,22 @@ const FooterTwo = () => {
                   <ul className="list-wrap">
                     <li className="title">Follow us</li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <img src="/img/icon/footer_icon01.png" alt="" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <img src="/img/icon/footer_icon02.png" alt="" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <img src="/img/icon/footer_icon03.png" alt="" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <img src="/img/icon/footer_icon04.png" alt="" />
                       </a>
                     </li>

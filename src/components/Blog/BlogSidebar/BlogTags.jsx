@@ -8,7 +8,7 @@ const BlogTags = () => {
       <ul className="list-wrap">
         {tags.map((tag, index) => (
           <li key={index}>
-            <a href="#">{tag}</a>
+            <a href="/">{tag}</a>
           </li>
         ))}
       </ul>

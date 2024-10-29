@@ -102,7 +102,7 @@ const HeaderOne = () => {
                             ) && "active"
                           )}
                         >
-                          <a href="#">Home</a>
+                          <a href="/">Home</a>
                           <ul className="sub-menu">
                             <li className={cn(isActiveClassName("/"))}>
                               <Link to="/">Creative Agency</Link>
@@ -135,7 +135,7 @@ const HeaderOne = () => {
                             ].includes(pathname) && "active"
                           )}
                         >
-                          <a href="#">pages</a>
+                          <a href="/">pages</a>
                           <ul className="sub-menu">
                             <li className={cn(isActiveClassName("/about-me"))}>
                               <Link to="/about-me">About Me</Link>
@@ -179,7 +179,7 @@ const HeaderOne = () => {
                               "active"
                           )}
                         >
-                          <a href="#">News</a>
+                          <a href="/">News</a>
                           <ul className="sub-menu">
                             <li className={cn(isActiveClassName("/blog"))}>
                               <Link to="/blog">Our Blog</Link>
@@ -197,7 +197,7 @@ const HeaderOne = () => {
                     <div className="header-action">
                       <ul className="list-wrap">
                         <li className="header-btn">
-                          <a href="#!" className="btn">
+                          <a href="/" className="btn">
                             Contact <span></span>
                           </a>
                         </li>
@@ -223,27 +223,27 @@ const HeaderOne = () => {
                     <div className="social-links">
                       <ul className="clearfix list-wrap">
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fab fa-facebook-f"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fab fa-twitter"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fab fa-instagram"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fab fa-linkedin-in"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="/">
                             <i className="fab fa-youtube"></i>
                           </a>
                         </li>

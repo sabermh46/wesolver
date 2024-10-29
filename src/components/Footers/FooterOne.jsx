@@ -18,22 +18,22 @@ const FooterOne = () => {
                   <div className="footer-social">
                     <ul className="list-wrap">
                       <li>
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li className="active">
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-google-plus-g"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/">
                           <i className="fab fa-linkedin-in"></i>
                         </a>
                       </li>

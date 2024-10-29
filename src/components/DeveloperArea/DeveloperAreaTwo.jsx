@@ -28,27 +28,27 @@ const DeveloperAreaTwo = () => {
               <div className="developr-social">
                 <ul className="list-wrap">
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fab fa-facebook-square"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fab fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fab fa-pinterest-p"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fab fa-vimeo-v"></i>
                     </a>
                   </li>

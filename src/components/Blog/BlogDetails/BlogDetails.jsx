@@ -13,7 +13,7 @@ const BlogDetails = () => {
                 <div className="blog-meta-two">
                   <ul className="list-wrap">
                     <li className="tag">
-                      <a href="#">Sector</a>
+                      <a href="/">Sector</a>
                     </li>
                     <li>
                       <i className="fal fa-clock"></i>5 Min

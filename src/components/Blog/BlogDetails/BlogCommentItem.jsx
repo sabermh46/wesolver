@@ -18,7 +18,7 @@ const BlogCommentItem = ({ item, className }) => {
 
         <p>{item.comment}</p>
 
-        <a href="#" className="comment-reply-link">
+        <a href="/" className="comment-reply-link">
           <i className="fal fa-reply"></i>Reply
         </a>
       </div>

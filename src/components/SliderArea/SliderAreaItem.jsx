@@ -40,7 +40,7 @@ const SliderAreaItem = () => {
                 <Popup
                   trigger={
                     <a
-                      href="#"
+                      href="/"
                       className="popup-video"
                       data-animation="fadeInRight"
                       data-delay=".6s"

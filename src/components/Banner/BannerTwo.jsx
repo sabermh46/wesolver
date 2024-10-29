@@ -24,22 +24,22 @@ const BannerTwo = () => {
                 
                 <ul className="list-wrap">
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <img src="/img/icon/banner_icon01.svg" alt="" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <img src="/img/icon/banner_icon02.svg" alt="" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <img src="/img/icon/banner_icon03.svg" alt="" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <img src="/img/icon/banner_icon04.svg" alt="" />
                     </a>
                   </li>

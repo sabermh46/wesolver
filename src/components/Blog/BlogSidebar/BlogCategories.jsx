@@ -25,7 +25,7 @@ const BlogCategories = () => {
       <ul className="list-wrap">
         {categories.map((x, index) => (
           <li key={index}>
-            <a href="#">
+            <a href="/">
               {x.title} <span>({x.count})</span>
             </a>
           </li>
