@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import TestimonialAreaThreeItem from "./TestimonialAreaThreeItem";
 
 // import Swiper core and required modules
