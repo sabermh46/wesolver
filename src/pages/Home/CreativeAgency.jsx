@@ -1,18 +1,18 @@
 import React from "react";
-import AboutArea from "../../components/About/AboutArea";
+// import AboutArea from "../../components/About/AboutArea";
 // import BannerOne from "../../components/Banner/BannerOne";
 import BlogArea from "../../components/Blog/BlogArea";
 import ConsultationArea from "../../components/Consultation/ConsultationArea";
 import NewsLetterArea from "../../components/NewsLetter/NewsLetterArea";
-import ProjectArea from "../../components/Project/ProjectArea";
-import ServicesArea from "../../components/ServicesArea/ServicesArea";
+// import ProjectArea from "../../components/Project/ProjectArea";
+// import ServicesArea from "../../components/ServicesArea/ServicesArea";
 import TeamArea from "../../components/Team/TeamArea";
-import TestimonialArea from "../../components/Testimonial/TestimonialArea";
+// import TestimonialArea from "../../components/Testimonial/TestimonialArea";
 import Layout from "../../layouts/Layout";
 import SliderArea from "../../components/SliderArea/SliderArea";
 import ServiceAreaThree from "../../components/ServicesArea/ServiceAreaThree";
 import AgencyArea from "../../components/AgencyArea/AgencyArea";
-import TestimonialAreaFive from "../../components/Testimonial/TestimonialAreaFive";
+// import TestimonialAreaFive from "../../components/Testimonial/TestimonialAreaFive";
 import ProjectAreaTwo from "../../components/Project/ProjectAreaTwo";
 import TestimonialAreaFour from "../../components/Testimonial/TestimonialAreaFour";
 
