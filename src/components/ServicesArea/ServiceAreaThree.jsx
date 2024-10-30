@@ -104,7 +104,7 @@ const ServiceAreaThree = () => {
   };
 
   return (
-    <section className="services-area-three">
+    <section className="services-area-three" style={{paddingBottom: '50px'}}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-7">

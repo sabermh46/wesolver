@@ -94,30 +94,10 @@ const HeaderOne = () => {
 
                     <div className="navbar-wrap main-menu d-none d-lg-flex">
                       <ul className="navigation">
-                        <li
-                          className={cn(
-                            "menu-item-has-children",
-                            ["/", "/home-two", "/home-three"].includes(
-                              pathname
-                            ) && "active"
-                          )}
-                        >
-                          <a href="/">Home</a>
-                          <ul className="sub-menu">
-                            <li className={cn(isActiveClassName("/"))}>
-                              <Link to="/">Creative Agency</Link>
-                            </li>
-                            <li className={cn(isActiveClassName("/home-two"))}>
-                              <Link to="/home-two">Personal Portfolio</Link>
-                            </li>
-                            <li
-                              className={cn(isActiveClassName("/home-three"))}
-                            >
-                              <Link to="/home-three">Digital Agency</Link>
-                            </li>
-                          </ul>
-                        </li>
 
+                        <li className={cn(isActiveClassName("/"))}>
+                          <Link to="/">Home</Link>
+                        </li>
                         <li className={cn(isActiveClassName("/about-us"))}>
                           <Link to="/about-us">About Us</Link>
                         </li>

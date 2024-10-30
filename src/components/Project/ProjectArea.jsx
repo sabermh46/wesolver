@@ -53,7 +53,7 @@ const ProjectArea = () => {
           <div className="col-xl-4">
             <div className="project-content">
               <div className="section-title white-title mb-30">
-                <span className="sub-title">Our Complete Craft</span>
+                <span className="sub-title" style={{color: 'var(--tg-primary-color)'}}>Our Complete Craft</span>
                 <h2 className="title">
                   Some of Our Work in Craft Digital Agency
                 </h2>

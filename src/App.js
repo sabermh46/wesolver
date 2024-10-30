@@ -13,7 +13,7 @@ import ServicesDetailsPage from "./pages/ServicesDetailsPage";
 import ContactPage from "./pages/ContactPage";
 import BlogPage from "./pages/Blog/BlogPage";
 import BlogDetailsPage from "./pages/Blog/BlogDetailsPage";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   useEffect(() => {
@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-      <AnimatedCursor
+      {/* <AnimatedCursor
         innerSize={8}
         outerSize={32}
         color="86, 103, 204"
@@ -55,7 +55,7 @@ function App() {
           "button",
           ".link",
         ]}
-      />
+      /> */}
 
       <Routes>
         <Route path="/" element={<CreativeAgency />} />

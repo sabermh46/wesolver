@@ -88,12 +88,12 @@ const ProjectAreaTwo = () => {
   };
 
   return (
-    <section className="project-area-two pt-110 pb-90">
+    <section className="project-area-two pt-110 pb-90" style={{background: 'var(--tg-black)'}}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-9">
             <div className="section-title title-style-two white-title mb-60 text-center">
-              <span className="sub-title">Portfolio</span>
+              <span className="sub-title" style={{ color: 'var(--tg-primary-color)'}}>Portfolio</span>
               <h2 className="title">You Will Like These Design Made by Me</h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting

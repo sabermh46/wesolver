@@ -42,7 +42,7 @@ const FooterOne = () => {
                   <div className="footer-contact">
                     <span>For Support</span>
                     <h2 className="title">
-                      <a href="tel:0123456789">0123 - 567 - 7650</a>
+                      <a href="tel:+8801720843651">+88 (017) 20 843 651</a>
                     </h2>
                   </div>
                 </div>
@@ -96,15 +96,15 @@ const FooterOne = () => {
                     <ul className="list-wrap">
                       <li>
                         <img src="/img/icon/phone_icon.svg" alt="" />
-                        <a href="tel:0123456789">8 (495) 989—20—11</a>
+                        <a href="tel:+8801720843651">+88 (017) 20 843 651</a>
                       </li>
                       <li>
                         <img src="/img/icon/mail_icon.svg" alt="" />
-                        <a href="mailto:company@gmail.com">company@gmail.com</a>
+                        <a href="mailto:wesolver@gmail.com">wesolver@gmail.com</a>
                       </li>
                       <li>
                         <img src="/img/icon/loction_icon.svg" alt="" />
-                        <span>Ranelagh Place, Liverpool, L3 5UL, England</span>
+                        <span>Dhaka, Bangladesh</span>
                       </li>
                     </ul>
                   </div>
@@ -123,7 +123,7 @@ const FooterOne = () => {
               </div>
               <div className="col-md-6">
                 <div className="copyright-text text-end">
-                  <p>© 2023 xilio. All Rights Reserved</p>
+                  <p>© 2023 We Solver. All Rights Reserved</p>
                 </div>
               </div>
             </div>

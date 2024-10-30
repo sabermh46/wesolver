@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const AgencyArea = () => {
   return (
-    <section className="agency-area pt-120">
+    <section className="agency-area pt-120" style={{paddingBottom: '50px'}}>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">

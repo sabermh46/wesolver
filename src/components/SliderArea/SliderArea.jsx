@@ -2,6 +2,7 @@ import React from "react";
 import SlickSlider from "../SlickSlider/SlickSlider";
 import SliderAreaItem from "./SliderAreaItem";
 
+
 const SliderArea = () => {
   const slick_settings = {
     autoplay: false,
@@ -29,6 +30,23 @@ const SliderArea = () => {
         <img src="/img/slider/slider_shape04.png" alt="" />
         <img src="/img/slider/slider_shape05.png" alt="" />
         <img src="/img/slider/slider_shape06.png" alt="" />
+        {/* <img
+          src="/img/banner/banner_shape03.png"
+          alt=""
+          className="contactSwimmer"
+        />
+        <img src="/img/banner/banner_shape04.png" alt="" className="rotateme" />
+        <img
+          src="/img/banner/banner_shape05.png"
+          alt=""
+          className="animation1"
+        />
+        <img
+          src="/img/banner/banner_shape06.png"
+          alt=""
+          className="ribbonRotate"
+        /> */}
+        
       </div>
     </section>
   );
