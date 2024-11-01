@@ -111,13 +111,12 @@ const ServiceAreaThree = () => {
             <div className="section-title title-style-two text-center mb-45">
               <span className="sub-title">What We Do</span>
               <h2 className="title">
-                We Make <span>Designs</span> <br />
-                that Lead and Inpire.
+              Your Success, <br /> <span>Our Commitment</span> <br />
+                 Solving Real Problems with Real Solutions
               </h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
-              </p>
+              {/* <p>
+              Trusted partner for web development, app creation, UI/UX design, and business solutions. Let us build, innovate, and maintain custom digital solutions that drive growth, enhance engagement, and meet your business goals.
+              </p> */}
             </div>
           </div>
         </div>

@@ -172,7 +172,7 @@
     margin-left: 0;
   }
   .slider-content .title {
-    font-size: 65px;
+    font-size: 50px;
   }
   .slider-content p {
     margin-bottom: 40px;
@@ -591,7 +591,7 @@
     font-size: 22px;
   }
   .slider-content .title {
-    font-size: 55px;
+    font-size: 45px;
     margin-bottom: 30px;
   }
   .slider-content p {
@@ -1100,7 +1100,7 @@
     justify-content: center;
   }
   .slider-content .title {
-    font-size: 52px;
+    font-size: 45px;
     margin-bottom: 25px;
   }
   .slider-active .slick-dots {
@@ -2170,7 +2170,7 @@
     max-width: 240px;
   }
   .slider-content .title {
-    font-size: 55px;
+    font-size: 45px;
   }
   .services-item-wrap {
     padding: 90px 70px 90px;

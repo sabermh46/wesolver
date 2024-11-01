@@ -4,28 +4,28 @@ import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import Iframe from "react-iframe";
 
-const SliderAreaItem = () => {
+const SliderAreaItem = ({image, title, description}) => {
   return (
     <div className="single-slider wow fadeInUp">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 order-0 order-lg-2">
             <div
+            style={{paddingLeft: '100px', }}
               className="slider-img text-end"
               data-animation="fadeInRight"
               data-delay=".8s"
             >
-              <img src="/img/slider/slider_img01.png" alt="" />
+              <img src={image} alt="" />
             </div>
           </div>
           <div className="col-lg-6">
             <div className="slider-content">
               <h2 className="title" data-animation="fadeInUp" data-delay=".2s">
-                Digital Agency Business Make Big Deal.
+              {title}
               </h2>
               <p data-animation="fadeInUp" data-delay=".4s">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the
+              {description}
               </p>
               <div className="slider-btn">
                 <Link
