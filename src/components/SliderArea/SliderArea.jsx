@@ -1,14 +1,14 @@
 import React from "react";
 import SlickSlider from "../SlickSlider/SlickSlider";
 import SliderAreaItem from "./SliderAreaItem";
-import ProjectAreaTwo from "../Project/ProjectAreaTwo";
 
 
 
 const SliderArea = () => {
   const slick_settings = {
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
     dots: true,
     fade: true,
     arrows: false,

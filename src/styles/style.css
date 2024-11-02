@@ -128,6 +128,9 @@
   cursor: default !important;
 } */
 
+* {
+  outline: 1px solid red;
+}
 body {
   font-family: var(--tg-body-font-family);
   font-weight: var(--tg-body-font-weight);
@@ -1605,6 +1608,7 @@ label {
 
 .slick-dots {
   bottom: auto;
+  left: 0;
 }
 
 .slider-active .slick-dots {
@@ -4186,6 +4190,7 @@ label {
   justify-content: center;
   gap: 10px;
   margin-top: 65px;
+  left: 0 !important;
 }
 .testimonial-active-two .slick-dots li,
 .testimonial-active .slick-dots li {

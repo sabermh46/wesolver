@@ -2095,6 +2095,7 @@
 
 	.services-active-three .slick-dots {
 		bottom: -52px !important;
+    left: 0;
 	}
 }
 
