@@ -1,7 +1,7 @@
 import React from "react";
 import SlickSlider from "../SlickSlider/SlickSlider";
 import SliderAreaItem from "./SliderAreaItem";
-import ProjectAreaTwo from "../Project/ProjectAreaTwo";
+//import ProjectAreaTwo from "../Project/ProjectAreaTwo";
 
 
 
