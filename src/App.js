@@ -20,9 +20,10 @@ function App() {
     const wow = new WOW({
       boxClass: "wow",
       animateClass: "animated",
-      offset: 0,
+      offset: 0.4,
       mobile: false,
       live: true,
+      
     });
     wow.init();
   }, []);

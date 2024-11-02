@@ -128,9 +128,9 @@
   cursor: default !important;
 } */
 
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 body {
   font-family: var(--tg-body-font-family);
   font-weight: var(--tg-body-font-weight);

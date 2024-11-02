@@ -105,7 +105,7 @@ const TestimonialArea = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-6">
-            <div className="section-title text-center mb-60">
+            <div className="section-title text-center mb-60 wow fadeInDown">
               { /* <span className="sub-title">Testimonials</span> */}
               <h2 className="title">What Our Clients Say About Us</h2>
             </div>
@@ -113,7 +113,7 @@ const TestimonialArea = () => {
         </div>
 
         <div className="testimonial-item-wrap">
-          <div className="row testimonial-active">
+          <div className="row testimonial-active wow fadeInUp">
             <SlickSlider settings={slick_settings}>
               {slider_items.map((x, index) => (
                 <div
