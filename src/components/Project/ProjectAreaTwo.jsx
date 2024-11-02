@@ -4,47 +4,69 @@ import cn from "classnames";
 
 const ProjectAreaTwo = () => {
   const project_items = [
+    
     {
       url: "/project-details",
-      src: "/img/project/h2_project_img01.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
-      className: "cat-three cat-two",
+      src: "/img/portfolio/app1.jpg",
+      title: "App Design",
+      desc: "Food Delivery App",
+      className: "cat-one",
     },
     {
       url: "/project-details",
-      src: "/img/project/h2_project_img02.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
-      className: "cat-four cat-five",
+      src: "/img/portfolio/web2.png",
+      title: "Web Design",
+      desc: "Medical Website",
+      className: "cat-two cat-five",
     },
     {
       url: "/project-details",
-      src: "/img/project/h2_project_img03.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
-      className: "cat-two cat-one",
+      src: "/img/portfolio/app2.png",
+      title: "App Design",
+      desc: "Transport App",
+      className: "cat-one cat-four",
     },
     {
       url: "/project-details",
-      src: "/img/project/h2_project_img04.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
-      className: "cat-four cat-five",
+      src: "/img/portfolio/ecommerce1.png",
+      title: "Web Design",
+      desc: "Ecommerce Website",
+      className: "cat-two cat-three",
     },
     {
       url: "/project-details",
-      src: "/img/project/h2_project_img05.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      src: "/img/portfolio/web4.png",
+      title: "Software",
+      desc: "Chating Application",
+      className: "cat-two cat-four",
+    },
+    {
+      url: "/project-details",
+      src: "/img/portfolio/app3.jpg",
+      title: "App Design",
+      desc: "Service App",
       className: "cat-one cat-five",
     },
     {
       url: "/project-details",
-      src: "/img/project/h2_project_img06.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
-      className: "cat-two cat-five",
+      src: "/img/portfolio/web5.jpg",
+      title: "web Design",
+      desc: "Car Shop",
+      className: "cat-two cat-three",
+    },
+    {
+      url: "/project-details",
+      src: "/img/portfolio/web6.png",
+      title: "software",
+      desc: "Inventory Management",
+      className: "cat-two cat-four",
+    },
+    {
+      url: "/project-details",
+      src: "/img/portfolio/web1.jpg",
+      title: "Web Design",
+      desc: "Ecommerce Website",
+      className: "cat-two cat-three",
     },
   ];
 
@@ -63,11 +85,11 @@ const ProjectAreaTwo = () => {
     },
     {
       filter: "cat-three",
-      label: "Landing Page",
+      label: "E-Commerce",
     },
     {
       filter: "cat-four",
-      label: "Branding-app",
+      label: "Software",
     },
     {
       filter: "cat-five",
@@ -93,11 +115,10 @@ const ProjectAreaTwo = () => {
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-9">
             <div className="section-title title-style-two white-title mb-60 text-center">
-              <span className="sub-title" style={{ color: 'var(--tg-primary-color)'}}>Portfolio</span>
-              <h2 className="title">You Will Like These Design Made by Me</h2>
+             { /* <span className="sub-title" style={{ color: 'var(--tg-primary-color)'}}>Portfolio</span> */}
+              <h2 className="title">You’ll love these projects designed by We Solver</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
+              Explore the breadth of our capabilities through We Solver's portfolio. From dynamic mobile applications to engaging web platforms, each project exemplifies our focus on delivering tailored solutions that enhance user engagement and business performance.
               </p>
             </div>
           </div>

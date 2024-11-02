@@ -8,23 +8,21 @@ const AgencyArea = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="agency-img text-center">
-              <img src="/img/images/agency_img.png" alt="" />
+              <img src="/img/background/bg2.png" alt="" />
             </div>
           </div>
 
           <div className="col-lg-6">
             <div className="agency-content">
               <div className="section-title title-style-two mb-20">
-                <span className="sub-title">Our Agency</span>
-                <h2 className="title">Best Online Agency Since 2023</h2>
+                { /* <span className="sub-title">Our Agency</span> */}
+                <h2 className="title">Best Online Agency Since 2020</h2>
               </div>
               <p className="info-one">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
+              We Solver has established itself as a leader in delivering cutting-edge digital solutions. Specializing in web and mobile app development, UI/UX design, and advanced AI applications,
               </p>
               <p className="info-two">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
+              Our commitment to innovation and client satisfaction ensures that we provide tailored solutions that not only meet but exceed your business goals.
               </p>
 
               <Link to="/about-us" className="btn">

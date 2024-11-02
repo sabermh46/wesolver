@@ -10,16 +10,13 @@ const ConsultationArea = () => {
             <div className="consultation-content">
               <div className="section-title mb-25">
                 <img src="/img/icon/consultation_icon01.png" alt="" />
-                <span className="sub-title">95% Accuracy</span>
+                <span className="sub-title">98% Accuracy</span>
                 <h2 className="title">
-                  Worldwide Best Digital Marketing Agency
+                Trusted Agency for Innovative Software Solutions
                 </h2>
               </div>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and
+              At We Solver, we pride ourselves on delivering exceptional software solutions tailored to meet the unique needs of businesses across the globe. Our commitment to quality and innovation has established us as a leader in the industry, ensuring our clients receive results that propel their success.
               </p>
               <div className="consultation-list">
                 <ul className="list-wrap">

@@ -5,57 +5,57 @@ import ServiceAreaThreeItem from "./ServiceAreaThreeItem";
 const ServiceAreaThree = () => {
   const services = [
     {
-      title: "UI/UX Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      src: "/img/icon/h3_services_icon01.png",
+      title: "Web Development",
+      desc: "Developing responsive, scalable websites with  React, Node.js, Django and Laravel",
+      src: "/img/services/web.png",
       url: "/services-details",
     },
     {
-      title: "Website Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      src: "/img/icon/h3_services_icon02.png",
+      title: "Mobile App Development",
+      desc: "Creating user-friendly mobile applications for both iOS and Android platforms",
+      src: "/img/services/app.png",
       url: "/services-details",
     },
     {
-      title: "Branding",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      src: "/img/icon/h3_services_icon03.png",
-      url: "/services-details",
-    },
-    {
-      title: "UI/UX Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      src: "/img/icon/h3_services_icon01.png",
-      url: "/services-details",
-    },
-    {
-      title: "Website Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      src: "/img/icon/h3_services_icon02.png",
-      url: "/services-details",
-    },
-    {
-      title: "Branding",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      src: "/img/icon/h3_services_icon03.png",
+      title: "Custom Software Development",
+      desc: "Developing software solutions that address unique business challenges, such as inventory management systems or CRM platforms",
+      src: "/img/services/software.png",
       url: "/services-details",
     },
     {
       title: "UI/UX Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      src: "/img/icon/h3_services_icon01.png",
+      desc: "Creating intuitive UI/UX designs that enhance user satisfaction and drive engagement across digital platforms",
+      src: "/img/services/ui-ux.png",
       url: "/services-details",
     },
     {
-      title: "Website Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      src: "/img/icon/h3_services_icon02.png",
+      title: "Graphic Design",
+      desc: "Designing captivating graphics that effectively communicate your brand message and enhance visual storytelling",
+      src: "/img/services/graphics.png",
       url: "/services-details",
     },
     {
-      title: "Branding",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      src: "/img/icon/h3_services_icon03.png",
+      title: "Cybersecurity Services",
+      desc: "Providing security assessments, vulnerability testing, and implementing security protocols to protect sensitive business data",
+      src: "/img/services/security.png",
+      url: "/services-details",
+    },
+    {
+      title: "DevOps Services",
+      desc: "Development through CI/CD pipelines, automation, and infrastructure management to improve application reliability",
+      src: "/img/services/devops.png",
+      url: "/services-details",
+    },
+    {
+      title: "Artificial Intelligence",
+      desc: "Utilizing AI technologies like machine learning and natural language processing to create intelligent solutions",
+      src: "/img/services/ai.png",
+      url: "/services-details",
+    },
+    {
+      title: "E-commerce Solutions",
+      desc: "Developing comprehensive e-commerce platforms with secure payment processing, inventory management, and user-friendly interfaces",
+      src: "/img/services/e-commerce.png",
       url: "/services-details",
     },
   ];
@@ -104,15 +104,15 @@ const ServiceAreaThree = () => {
   };
 
   return (
-    <section className="services-area-three" style={{paddingBottom: '50px'}}>
+    <section className="services-area-three" >
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-7">
             <div className="section-title title-style-two text-center mb-45">
-              <span className="sub-title">What We Do</span>
+              { /*<span className="sub-title">What We Do</span>*/}
               <h2 className="title">
-              Your Success, <br /> <span>Our Commitment</span> <br />
-                 Solving Real Problems with Real Solutions
+              Your Achievement, <br /> <span>Our Promise</span> <br />
+               Real Problems with Real Solutions
               </h2>
               {/* <p>
               Trusted partner for web development, app creation, UI/UX design, and business solutions. Let us build, innovate, and maintain custom digital solutions that drive growth, enhance engagement, and meet your business goals.

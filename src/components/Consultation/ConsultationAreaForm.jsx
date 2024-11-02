@@ -21,11 +21,11 @@ const ConsultationAreaForm = () => {
             className="form-select"
             aria-label="Default select example"
           >
-            <option value="">Subject</option>
-            <option>Subject One</option>
-            <option>Subject Two</option>
-            <option>Subject Three</option>
-            <option>Subject Four</option>
+            <option value="">Services</option>
+            <option>Web Development</option>
+            <option>App Development</option>
+            <option>Software development</option>
+            <option>UI/UX Design</option>
           </select>
         </div>
         <button className="btn" type="submit">

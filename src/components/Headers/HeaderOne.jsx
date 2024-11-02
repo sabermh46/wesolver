@@ -102,6 +102,57 @@ const HeaderOne = () => {
                           <Link to="/about-us">About Us</Link>
                         </li>
 
+                        {/* <!-- Need to modify this section.  --> */}
+                        <li
+                          className={cn(
+                            "menu-item-has-children",
+                            [
+                              "/about-me",
+                              "/team",
+                              "/team-details",
+                              "/project-details",
+                              "/services-details",
+                              "/contact",
+                            ].includes(pathname) && "active"
+                          )}
+                        >
+                          <a href="/">Services</a>
+                          <ul className="sub-menu">
+                            <li className={cn(isActiveClassName("/about-me"))}>
+                              <Link to="/about-me">Web Development </Link>
+                            </li>
+                            <li className={cn(isActiveClassName("/team"))}>
+                              <Link to="/team">App Development</Link>
+                            </li>
+                            <li
+                              className={cn(isActiveClassName("/team-details"))}
+                            >
+                              <Link to="/team-details">Software Development</Link>
+                            </li>
+                            <li
+                              className={cn(
+                                isActiveClassName("/project-details")
+                              )}
+                            >
+                              <Link to="/project-details">
+                                UI/UX Design
+                              </Link>
+                            </li>
+                            <li
+                              className={cn(
+                                isActiveClassName("/services-details")
+                              )}
+                            >
+                              <Link to="/services-details">
+                                Digital Marketing
+                              </Link>
+                            </li>
+                            <li className={cn(isActiveClassName("/contact"))}>
+                              <Link to="/contact">Software Maintenance</Link>
+                            </li>
+                          </ul>
+                        </li>
+
                         <li
                           className={cn(
                             "menu-item-has-children",
@@ -170,6 +221,10 @@ const HeaderOne = () => {
                               <Link to="/blog-details">Blog Details</Link>
                             </li>
                           </ul>
+                        </li>
+
+                        <li className={cn(isActiveClassName("/about-us"))}>
+                          <Link to="/about-us">Careers</Link>
                         </li>
                       </ul>
                     </div>
@@ -263,8 +318,8 @@ const HeaderOne = () => {
                                 </svg>
                               </div>
                               <div className="content">
-                                <a href="mailto:company@gmail.com">
-                                  company@gmail.com
+                                <a href="mailto:sheikhabubackkarsiddiq@gmail.com">
+                                sheikhabubackkarsiddiq@gmail.com
                                 </a>
                               </div>
                             </li>
@@ -284,7 +339,7 @@ const HeaderOne = () => {
                               </div>
                               <div className="content">
                                 <span>
-                                  Ranelagh Place, Liverpool, L3 5UL, England
+                                  Dhaka, Bangladesh
                                 </span>
                               </div>
                             </li>
@@ -305,7 +360,7 @@ const HeaderOne = () => {
                               <div className="content">
                                 <span>
                                   7 Days a week <br />
-                                  from 10-00 am to 6-00 pm
+                                  from 8-00 am to 10-00 pm
                                 </span>
                               </div>
                             </li>

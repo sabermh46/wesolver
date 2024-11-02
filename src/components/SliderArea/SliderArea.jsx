@@ -18,16 +18,16 @@ const SliderArea = () => {
   const data = [
     {
       image: '/img/slider/slider_img01.png',
-      title: 'Next-Gen Solutions with Advanced Technology',
-      des: 'Trusted partner for web development, app creation, UI/UX design, and business solutions. Let us build, innovate, and maintain custom digital solutions that drive growth, enhance engagement, and meet your business goals.',
+      title: 'Unlock Business Potential with Custom Software Solutions',
+      des: 'We Solver is your premier partner for advanced business solutions, specializing in website and app development, security, maintenance, and DevOps. Our tailored software solutions leverage cutting-edge technology to enhance operational efficiency and drive sustainable growth for your business.',
     },
     {
-      image: '/img/slider/slider_img01.png',
-      title: 'Solving Real Problems with Real Solutions',
-      des: 'Transform your business with smart, tailored solutions crafted by We Solver. From optimizing operations to enhancing customer experiences, our expert team delivers impactful web, mobile, and enterprise software using the latest technologies.',
+      image: '/img/images/h2_about_img.png',
+      title: 'Your Success, Our Commitment',
+      des: 'At We Solver, we are dedicated to driving your success with advanced business solutions tailored to your specific needs. From optimizing operations to enhancing customer experiences, our expert team delivers impactful web, mobile, and enterprise software, utilizing the latest technologies to ensure your business stays ahead in a competitive landscape.',
     },
     {
-      image: '/img/slider/slider_img01.png',
+      image: '/img/background/bg9.png',
       title: 'Next-Gen Solutions with Advanced Technology',
       des: 'Trusted partner for web development, app creation, UI/UX design, and business solutions. Let us build, innovate, and maintain custom digital solutions that drive growth, enhance engagement, and meet your business goals.',
     },
@@ -52,7 +52,6 @@ const SliderArea = () => {
         <img src="/img/slider/slider_shape04.png" alt="" />
         <img src="/img/slider/slider_shape05.png" alt="" />
         <img src="/img/slider/slider_shape06.png" alt="" />
-        
       </div>
     </section>
   );

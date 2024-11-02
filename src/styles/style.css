@@ -1559,12 +1559,12 @@ label {
   overflow: hidden;
 }
 .slider-content .title {
-  font-size: 68px;
+  font-size: 50px;
   margin-bottom: 35px;
 }
 .slider-content p {
   margin-bottom: 40px;
-  color: var(--tg-manatee);
+  color: #6a6c72;
   font-size: 18px;
   text-transform: capitalize;
   width: 80%;
@@ -3510,7 +3510,7 @@ label {
   z-index: 1;
 }
 .section-title.white-title .title {
-  color: var(--tg-white);
+  color: var(--tg-primary-color);
 }
 .project-content p {
   color: var(--tg-silver-foil);

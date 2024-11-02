@@ -29,12 +29,11 @@ const TeamArea = () => {
               <div className="section-title mb-25">
                 <span className="sub-title">Our Team</span>
                 <h2 className="title">
-                  An Essential Aspect of Creativity is Not Being Afraid to Fail
+                Innovation Flourishes Where Creativity Meets Collaboration
                 </h2>
               </div>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
+              At We Solver, we understand that innovation thrives in an environment where creativity is encouraged and risks are embraced. Our team of skilled professionals brings a wealth of experience and diverse perspectives, collaborating seamlessly to transform challenges into groundbreaking solutions.
               </p>
               <Link to="/team" className="btn">
                 Meet Our Team <span></span>

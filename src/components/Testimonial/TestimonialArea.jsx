@@ -106,8 +106,8 @@ const TestimonialArea = () => {
         <div className="row justify-content-center">
           <div className="col-xl-6">
             <div className="section-title text-center mb-60">
-              <span className="sub-title">Testimonials</span>
-              <h2 className="title">Shat Our Customer Say About Us</h2>
+              { /* <span className="sub-title">Testimonials</span> */}
+              <h2 className="title">What Our Clients Say About Us</h2>
             </div>
           </div>
         </div>
