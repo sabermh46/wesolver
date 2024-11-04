@@ -4,7 +4,7 @@ import Layout from "../../layouts/Layout";
 
 // import AboutArea from "../../components/About/AboutArea";
 import SliderArea from "../../components/SliderArea/SliderArea";
-import BannerOne from "../../components/Banner/BannerOne";
+// import BannerOne from "../../components/Banner/BannerOne";
 // import ServicesArea from "../../components/ServicesArea/ServicesArea";
 import ServiceAreaThree from "../../components/ServicesArea/ServiceAreaThree";
 import AgencyArea from "../../components/AgencyArea/AgencyArea";
@@ -29,7 +29,7 @@ const CreativeAgency = () => {
       <ProjectAreaTwo />
       {/* <ProjectArea /> */}
       {/*<TestimonialAreaFour />  */}
-      <BannerOne />
+      {/* <BannerOne /> */}
       <TestimonialArea />
       <TeamArea />
       <ConsultationArea />

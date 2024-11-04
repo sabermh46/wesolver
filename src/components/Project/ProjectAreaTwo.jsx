@@ -110,7 +110,7 @@ const ProjectAreaTwo = () => {
   };
 
   return (
-    <section className="project-area-two pt-110 pb-90" style={{background: 'var(--tg-black)'}}>
+    <section className="project-area-two pt-110 pb-90" style={{background: 'var(--tg-black)', zIndex: 9}}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-9">

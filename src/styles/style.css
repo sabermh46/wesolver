@@ -1886,16 +1886,28 @@ label {
   border-radius: 35px;
   padding: 110px 155px 90px;
 }
+/* .services-item-wrap::before {
+  content: '';
+  height: calc(100% - (2 * 110px));
+  width: calc(100% - (2 * 50px));
+  background: var(--tg-cultured);
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  border-radius: 36px;
+} */
 .services-item-three {
   border-radius: 20px;
   padding: 40px 35px;
   transition: 0.3s ease-in;
+  text-align: center;
 }
 .services-item-three:hover {
   background: var(--tg-white);
 }
 .services-icon-three {
   width: 55px;
+  margin: 0 auto;
   margin-bottom: 15px;
 }
 .services-content-three .title {

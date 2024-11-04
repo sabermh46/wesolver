@@ -1,9 +1,15 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 
 const BlogAreaItem = (props) => {
+  const {ref: ref1, inView: inView1 } = useInView({ threshold: 0.3, triggerOnce: false})
+  
   return (
-    <div className="blog-post-item">
+    <div ref={ref1} className="blog-post-item"  style={{
+      transition: '0.5s ease',
+      transform: `translateY(${inView1 ? 0 : 100}px)`
+    }}>
       <div className="blog-post-thumb">
         <Link to="/blog-details">
           <img src={props.item.src} alt="" />

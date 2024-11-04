@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import SlickSlider from "../SlickSlider/SlickSlider";
 import ServiceAreaThreeItem from "./ServiceAreaThreeItem";
 import { useInView } from "react-intersection-observer";
@@ -7,7 +7,7 @@ const ServiceAreaThree = () => {
   const services = [
     {
       title: "Web Development",
-      desc: "Developing responsive, scalable websites with  React, Node.js, Django and Laravel",
+      desc: "Developing responsive, scalable websites with React, Node.js, Django and Laravel",
       src: "/img/services/web.png",
       url: "/services-details",
     },
@@ -61,12 +61,62 @@ const ServiceAreaThree = () => {
     },
   ];
 
-  const slick_settings = {
+  const { ref, inView } = useInView({
+    threshold: 0.3,
+    triggerOnce: false,
+  });
+  const { ref: ref1, inView: inView1 } = useInView({
+    threshold: 0.3,
+    triggerOnce: false,
+  });
+
+  const [autoplay, setAutoplay] = useState(false);
+
+  useEffect(() => {
+    if (inView) {
+      setAutoplay(true);
+      console.log('trig');
+      
+    }
+  }, [inView]);
+
+  // const slick_settings = ;
+
+  return (
+    <section className="services-area-three">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div
+            ref={ref}
+            className="col-xl-6 col-lg-7"
+            style={{
+              transition: `0.5s ease`,
+              transform: `translateY(${inView ? 0 : 50}px)`,
+            }}
+          >
+            <div className="section-title title-style-two text-center mb-45">
+              <h2 className="title">
+                Your Achievement, <br /> <span>Our Promise</span> <br />
+                Real Problems with Real Solutions
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div ref={ref1} className="services-item-wrap"
+        style={{
+          transition: `0.5s ease`,
+          transitionDelay: '0s',
+          transform: `translateY(${inView1 ? 0 : 50}px)`,
+        }}
+        >
+          <div className="row services-active services-active-three">
+            <SlickSlider settings={{
     dots: true,
-    infinite: false,
-    speed: 1000,
-    autoplay: true,
-    arrows: false,
+    infinite: true,
+    speed: 500,
+    autoplay: autoplay ? true : false,
+    arrows: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
@@ -102,33 +152,7 @@ const ServiceAreaThree = () => {
         },
       },
     ],
-  };
-  const {ref, inView} = useInView({
-    threshold: 0.4,
-    triggerOnce: false
-  })
-
-  return (
-    <section className="services-area-three" >
-      <div className="container">
-        <div className="row justify-content-center">
-          <div ref={ref} className="col-xl-6 col-lg-7" style={{ transition: `0.5s ease`,transform: `translateY(${inView ? 0 : 50}px)`}}>
-            <div className="section-title title-style-two text-center mb-45">
-              { /*<span className="sub-title">What We Do</span>*/}
-              <h2 className="title">
-              Your Achievement, <br /> <span>Our Promise</span> <br />
-               Real Problems with Real Solutions
-              </h2>
-              {/* <p>
-              Trusted partner for web development, app creation, UI/UX design, and business solutions. Let us build, innovate, and maintain custom digital solutions that drive growth, enhance engagement, and meet your business goals.
-              </p> */}
-            </div>
-          </div>
-        </div>
-
-        <div className="services-item-wrap">
-          <div className="row services-active services-active-three">
-            <SlickSlider settings={slick_settings}>
+  }}>
               {services.map((x, index) => (
                 <div key={index} className="col-lg-4">
                   <ServiceAreaThreeItem item={x} />
