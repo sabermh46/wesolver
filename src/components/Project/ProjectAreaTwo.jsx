@@ -147,10 +147,9 @@ const ProjectAreaTwo = () => {
               <div
                 key={index}
                 className={cn(
-                  "col-lg-4 col-md-6 grid-item grid-sizer wow fadeInUp",
+                  "col-lg-4 col-md-6 grid-item grid-sizer",
                   x.className
                 )}
-                data-wow-delay=".2s"
 
               >
                 <ProjectAreaTwoItem item={x} />

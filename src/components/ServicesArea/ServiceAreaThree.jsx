@@ -1,6 +1,7 @@
 import React from "react";
 import SlickSlider from "../SlickSlider/SlickSlider";
 import ServiceAreaThreeItem from "./ServiceAreaThreeItem";
+import { useInView } from "react-intersection-observer";
 
 const ServiceAreaThree = () => {
   const services = [
@@ -102,12 +103,16 @@ const ServiceAreaThree = () => {
       },
     ],
   };
+  const {ref, inView} = useInView({
+    threshold: 0.4,
+    triggerOnce: false
+  })
 
   return (
     <section className="services-area-three" >
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-xl-6 col-lg-7">
+          <div ref={ref} className="col-xl-6 col-lg-7" style={{ transition: `0.5s ease`,transform: `translateY(${inView ? 0 : 50}px)`}}>
             <div className="section-title title-style-two text-center mb-45">
               { /*<span className="sub-title">What We Do</span>*/}
               <h2 className="title">

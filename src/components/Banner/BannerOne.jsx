@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const BannerOne = () => {
+  
   return (
     <section className="banner-area banner-bg">
       <div className="container">

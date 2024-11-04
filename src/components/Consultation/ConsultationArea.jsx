@@ -1,26 +1,50 @@
 import React from "react";
 import ConsultationAreaForm from "./ConsultationAreaForm";
+import { useInView } from "react-intersection-observer";
 
 const ConsultationArea = () => {
+  const {ref: ref1, inView: inView1 } = useInView({threshold: 0.3, triggerOnce: false})
+  const {ref: ref2, inView: inView2 } = useInView({threshold: 0.3, triggerOnce: false})
+  const {ref: ref3, inView: inView3 } = useInView({threshold: 0.3, triggerOnce: false})
+  const {ref: ref4, inView: inView4 } = useInView({threshold: 0.3, triggerOnce: false})
   return (
     <section className="consultation-area pt-120 pb-120">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-7">
             <div className="consultation-content">
-              <div className="section-title mb-25">
-                <img src="/img/icon/consultation_icon01.png" alt="" />
-                <span className="sub-title">98% Accuracy</span>
-                <h2 className="title">
+              <div ref={ref1} className="section-title mb-25">
+                <img src="/img/icon/consultation_icon01.png" alt="" style={{
+                  transition: '0.5s ease',
+                  transform: `translateX(${inView1 ? 0 : 100}px)`
+                }}/>
+                <span className="sub-title" style={{
+                  transition: '0.5s ease',
+                  transitionDelay: '0.2s',
+                  transform: `translateX(${inView1 ? 0 : 100}px)`
+                }}>98% Accuracy</span>
+                <h2 className="title" style={{
+                  transition: '0.5s ease',
+                  transitionDelay: '0.3s',
+                  transform: `translateX(${inView1 ? 0 : 100}px)`
+                }}>
                 Trusted Agency for Innovative Software Solutions
                 </h2>
               </div>
-              <p>
+              <p ref={ref2} style={{
+                  transition: '0.5s ease',
+                  transform: `translateY(${inView2 ? 0 : 100}px)`
+                }}>
               At We Solver, we pride ourselves on delivering exceptional software solutions tailored to meet the unique needs of businesses across the globe. Our commitment to quality and innovation has established us as a leader in the industry, ensuring our clients receive results that propel their success.
               </p>
-              <div className="consultation-list">
+              <div ref={ref3} className="consultation-list">
                 <ul className="list-wrap">
-                  <li>
+                  <li style={{
+                  transition: '0.5s ease',
+                  transitionDelay: '0s',
+                  transform: `translateY(${inView3 ? 0 : 100}px)`,
+                  opacity: inView3? 1: 0
+                }}>
                     <div className="icon">
                       <img src="/img/icon/consultation_icon02.png" alt="" />
                       <span>12x</span>
@@ -29,7 +53,12 @@ const ConsultationArea = () => {
                       <h6 className="title">Faster Order Processing</h6>
                     </div>
                   </li>
-                  <li>
+                  <li style={{
+                  transition: '0.5s ease',
+                  transitionDelay: '0.1s',
+                  transform: `translateY(${inView3 ? 0 : 100}px)`,
+                  opacity: inView3? 1: 0
+                }}>
                     <div className="icon">
                       <img src="/img/icon/consultation_icon03.png" alt="" />
                       <span>95%</span>
