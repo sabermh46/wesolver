@@ -6,7 +6,6 @@ const ConsultationArea = () => {
   const {ref: ref1, inView: inView1 } = useInView({threshold: 0.3, triggerOnce: false})
   const {ref: ref2, inView: inView2 } = useInView({threshold: 0.3, triggerOnce: false})
   const {ref: ref3, inView: inView3 } = useInView({threshold: 0.3, triggerOnce: false})
-  const {ref: ref4, inView: inView4 } = useInView({threshold: 0.3, triggerOnce: false})
   return (
     <section className="consultation-area pt-120 pb-120">
       <div className="container">

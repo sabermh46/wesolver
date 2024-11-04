@@ -3,7 +3,6 @@ import { useInView } from "react-intersection-observer";
 
 const ConsultationAreaForm = () => {
   const {ref: ref1, inView: inView1 } = useInView({threshold: 0.3, triggerOnce: false})
-  const {ref: ref2, inView: inView2 } = useInView({threshold: 0.3, triggerOnce: false})
   return (
     <div className="consultation-form-wrap" ref={ref1}>
       <h4 className="title" style={{
