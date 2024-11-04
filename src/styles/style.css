@@ -49,6 +49,11 @@
 /*=============================
 	01. Variable CSS
 ===============================*/
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
 :root {
   --tg-body-font-family: "Poppins", sans-serif;
   --tg-heading-font-family: "Poppins", sans-serif;
