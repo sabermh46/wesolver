@@ -41,21 +41,19 @@ const CounterAreaThree = () => {
             <div className="counter-content-three">
               <div className="section-title title-style-two mb-30">
                 <h2 className="title">
-                  Content Has to Be More That Just Brilliant
+                Bring Your Vision to Life with Technology
                 </h2>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, sed nulla ante amet, elementum
-                tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac
-                scelerisque nibh dolores consectetuer, nulla aptent est pede.
-                Scelerisque euismod varius mi, congue eget sed vestibulum,
-                ornare cras sed nec.
+              At We Solver, we transform your dreams into reality through cutting-edge technology and innovative software solutions. Let us help you achieve your goals and thrive in the digital era
               </p>
+              { /*
               <img src="/img/images/sine.png" alt="" />
               <div className="content-bottom">
                 <h4 className="title-two">Davis Levin</h4>
                 <span>Director Company</span>
               </div>
+              */}
             </div>
           </div>
         </div>

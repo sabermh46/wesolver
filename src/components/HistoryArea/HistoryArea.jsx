@@ -8,11 +8,10 @@ const HistoryArea = () => {
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-8">
             <div className="section-title white-title text-center mb-45">
-              <span className="sub-title">Our Company</span>
+              { /* <span className="sub-title">Our Company</span> */ }
               <h2 className="title">Company History</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
+              Founded on a vision of innovation and excellence, We Solver has grown from a small tech startup to one of the leading software agencies globally. 
               </p>
             </div>
           </div>
@@ -25,25 +24,20 @@ const HistoryArea = () => {
             <div className="col-lg-6">
               <div className="history-content">
                 <h2 className="title">
-                  The Intention was to Establish The Company
+                The Vision Behind Our Establishment
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, sed nulla ante amet, elementum
-                  tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac
-                  scelerisque nibh dolores consectetuer, nulla aptent est pede.
-                  Scelerisque euismod varius mi,
+                From the beginning, We Solver was founded with the intention to innovate and set new standards in the industry. Our mission was clear: to provide exceptional software solutions and digital designs that surpass expectations and set our clients up for success.
                 </p>
                 <ul className="list-wrap">
                   <li>
-                    <i className="far fa-check"></i>Everyone can design at low
-                    cost
+                    <i className="far fa-check"></i>Affordable, High-Quality Design Solutions
                   </li>
                   <li>
-                    <i className="far fa-check"></i>Designing in a different way
+                    <i className="far fa-check"></i>Unique and Innovative Design Approach
                   </li>
                   <li>
-                    <i className="far fa-check"></i>Our designs sill be world
-                    wide best designs
+                    <i className="far fa-check"></i>World-Class Designs That Make an Impact
                   </li>
                 </ul>
               </div>

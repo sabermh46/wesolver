@@ -4,7 +4,7 @@ import SuccessList from "./SuccessList";
 const SuccessArea = () => {
   return (
     <section className="success-area pb-120">
-      <div className="container">
+      <div className="container" style={{paddingTop: "50px"}}>
         <div className="row align-items-center">
           <div className="col-lg-6 order-0 order-lg-2">
             <div className="success-img">
@@ -14,16 +14,14 @@ const SuccessArea = () => {
           <div className="col-lg-6">
             <div className="success-content">
               <div className="section-title title-style-two mb-30">
-                <span className="sub-title">Company Success</span>
                 <h2 className="title">
-                  A Company’s Success is An Ongoing Stream of Happiness
+                When Vision Turns Into Reality
                 </h2>
               </div>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
+              At We Solver, we transform your vision into actionable, impactful solutions. We believe that true success lies in consistent progress and client satisfaction, which is why we focus on continuous improvement and delivering high-quality results at every stage
               </p>
-
+              <span className="sub-title" style={{ color: "#1a3b74" , fontWeight: "bold",}}>Endless Growth, Endless Happiness</span>
               {/* success list */}
               <SuccessList />
             </div>
