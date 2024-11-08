@@ -12,7 +12,6 @@ const DeveloperAreaThree = () => {
   const { ref: ref1, inView: iV1} = useInView(settingIO)
   const { ref: ref2, inView: iV2} = useInView(settingIO)
   const { ref: ref3, inView: iV3} = useInView(settingIO)
-  const { ref: ref4, inView: iV4} = useInView(settingIO)
 
   const icons = [
     "fab fa-twitter",
