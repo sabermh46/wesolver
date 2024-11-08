@@ -16,8 +16,8 @@ const HistoryAreaRoadmap = () => {
         >
           <span className="dot pulse-three"></span>
           <div className="content">
-            <h5 className="title">2020</h5>
-            <p>January 14 th</p>
+            <h5 className="title">Innovation</h5>
+            <p>Innovation</p>
           </div>
         </li>
         <li
@@ -27,8 +27,8 @@ const HistoryAreaRoadmap = () => {
         >
           <span className="dot pulse-four"></span>
           <div className="content">
-            <h5 className="title">2021</h5>
-            <p>January 14 th</p>
+            <h5 className="title">Growth</h5>
+            <p>Growth</p>
           </div>
         </li>
         <li
@@ -38,8 +38,8 @@ const HistoryAreaRoadmap = () => {
         >
           <span className="dot pulse-five"></span>
           <div className="content">
-            <h5 className="title">2022</h5>
-            <p>January 14 th</p>
+            <h5 className="title">Excellence</h5>
+            <p>Excellence</p>
           </div>
         </li>
         <li
@@ -49,8 +49,8 @@ const HistoryAreaRoadmap = () => {
         >
           <span className="dot pulse-six"></span>
           <div className="content">
-            <h5 className="title">2023</h5>
-            <p>January 14 th</p>
+            <h5 className="title">Success</h5>
+            <p>Success</p>
           </div>
         </li>
       </ul>

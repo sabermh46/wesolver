@@ -4,6 +4,7 @@ import CompanyArea from "../components/CompanyArea/CompanyArea";
 import NewsLetterArea from "../components/NewsLetter/NewsLetterArea";
 import ProjectDetailsArea from "../components/Project/ProjectDetailsArea";
 import InnerServiceAreaTwo from "../components/ServicesArea/InnerServiceAreaTwo";
+//import InnerServiceArea from "../components/ServicesArea/InnerServicesArea";
 import Layout from "../layouts/Layout";
 
 const PortfolioDetailsPage = () => {
@@ -18,6 +19,7 @@ const PortfolioDetailsPage = () => {
       <ProjectDetailsArea />
       <CompanyArea />
       <InnerServiceAreaTwo />
+      { /* <InnerServiceArea /> */}
       <NewsLetterArea />
     </Layout>
   );

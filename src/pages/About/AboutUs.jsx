@@ -1,13 +1,14 @@
 import React from "react";
 import BrandAreaTwo from "../../components/Brand/BrandAreaTwo";
+import DeveloperAreaThree from "../../components/DeveloperArea/DeveloperAreaThree";
 import BreadcrumbArea from "../../components/BreadcrumbArea/BreadcrumbArea";
 import ConsultationAreaTwo from "../../components/Consultation/ConsultationAreaTwo";
 import CounterAreaThree from "../../components/CounterArea/CounterAreaThree";
 import HistoryArea from "../../components/HistoryArea/HistoryArea";
-import InnerServicesArea from "../../components/ServicesArea/InnerServicesArea";
+import IndustryService from "../../components/ServicesArea/IndustryService";
 import SuccessArea from "../../components/SuccessArea/SuccessArea";
-import TeamAreaTwo from "../../components/Team/TeamAreaTwo";
 import TestimonialAreaFour from "../../components/Testimonial/TestimonialAreaFour";
+
 import Layout from "../../layouts/Layout";
 
 const AboutUs = () => {
@@ -18,12 +19,12 @@ const AboutUs = () => {
         subtitle={"About Us"}
         className={"pt-175 pb-140"}
       />
+      <DeveloperAreaThree />
       <CounterAreaThree />
-      <TeamAreaTwo />
+      <IndustryService />
       <ConsultationAreaTwo />
-      <InnerServicesArea />
-      <SuccessArea />
       <HistoryArea />
+      <SuccessArea />
       <TestimonialAreaFour />
       <BrandAreaTwo className={"pb-120"} />
     </Layout>

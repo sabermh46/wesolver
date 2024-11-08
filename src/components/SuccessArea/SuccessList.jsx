@@ -5,28 +5,28 @@ const SuccessList = () => {
   const success_list_items = [
     {
       src: "/img/icon/success_icon01.png",
-      title: "App Design",
-      percentage: 85,
+      title: "Web Development",
+      percentage: 99,
     },
     {
       src: "/img/icon/success_icon02.png",
-      title: "App Design",
-      percentage: 75,
+      title: "Software Solutions ",
+      percentage: 86,
     },
     {
       src: "/img/icon/success_icon03.png",
-      title: "App Design",
+      title: "App Development ",
       percentage: 95,
     },
     {
       src: "/img/icon/success_icon04.png",
-      title: "App Design",
-      percentage: 99,
+      title: "Maintenance",
+      percentage: 92,
     },
   ];
 
   return (
-    <div className="success-list">
+    <div className="success-list" style={{paddingTop: "20px" }}>
       <ul className="list-wrap">
         {success_list_items.map((x, index) => (
           <li key={index}>

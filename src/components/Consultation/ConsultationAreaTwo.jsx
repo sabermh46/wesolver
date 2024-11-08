@@ -9,18 +9,14 @@ const ConsultationAreaTwo = () => {
           <div className="col-lg-7">
             <div className="consultation-content">
               <div className="section-title mb-25">
-                <span className="sub-title">95% Accuracy</span>
+                <span className="sub-title">95% Client Satisfaction</span>
                 <h2 className="title">
-                  Worldwide Best Digital Marketing Agency
+                World's Leading Software Agency
                 </h2>
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet, sed nulla ante amet, elementum
-                tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac
-                scelerisque nibh dolores consectetuer, nulla aptent est pede.
-                Scelerisque euismod varius mi, congue eget sed vestibulum,
-                ornare cras sed nec.
+              At We Solver, we set the benchmark for cutting-edge software solutions, driven by innovation and precision. With our expertise in advanced technology, we empower businesses to enhance efficiency and achieve outstanding results
               </p>
 
               <div className="consultation-list">
