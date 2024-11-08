@@ -30,7 +30,7 @@ const CounterAreaThree = () => {
               <ul className="list-wrap">
                 {counter_items.map((x, index) => (
                   <li key={index}>
-                    <CounterAreaThreeItem item={x} amount={1 + (3 + index)} />
+                    <CounterAreaThreeItem item={x} amount={1 + (32 + index)} />
                   </li>
                 ))}
               </ul>
