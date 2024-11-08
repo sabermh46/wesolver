@@ -62,7 +62,7 @@ const IndustryServicesArea = () => {
           <div className="row justify-content-center">
             {inner_services.map((x, index) => (
               <div key={index} className="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                <IndustryServicesAreaItem item={x} />
+                <IndustryServicesAreaItem item={x} index={index} />
               </div>
             ))}
           </div>

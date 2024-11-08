@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import cn from "classnames";
+import { useInView } from "react-intersection-observer";
 
 const BreadcrumbArea = ({
   title,
@@ -9,15 +10,34 @@ const BreadcrumbArea = ({
   className,
   showShapeThree,
 }) => {
+
+  const settingIO = {
+    triggerOnce: false,
+    threshold: 0.1
+  }
+
+  const { ref: ref1, inView: iV1} = useInView(settingIO)
+
   return (
     <section className={cn("breadcrumb-area", className)}>
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="breadcrumb-content">
-              <h2 className="title">{title}</h2>
+              <h2 ref={ref1} className="title"
+              style={{
+                transition: '0.5s ease',
+                transform: `translateY(${iV1? 0 : -50}px)`
+              }}
+              >{title}</h2>
 
-              <nav aria-label="breadcrumb">
+              <nav aria-label="breadcrumb"
+              style={{
+                transition: '0.5s ease',
+                transform: `scaleX(${iV1? 1 : 0.3})`,
+                opacity: iV1? 1 : 0.3
+              }}
+              >
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
                     <Link to="/">Home</Link>
