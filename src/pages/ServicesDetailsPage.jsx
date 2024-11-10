@@ -7,7 +7,7 @@ import NewsLetterArea from "../components/NewsLetter/NewsLetterArea";
 import InnerProjectArea from "../components/Project/InnerProjectArea";
 //import ServicesDetailsArea from "../components/ServicesArea/ServicesDetailsArea";
 import MyClientArea from "../components/ClientArea/MyClientArea";
-import ToolsArea from "../components/ToolsArea/ToolsArea";
+//import ToolsArea from "../components/ToolsArea/ToolsArea";
 import LanguageUse from "../components/Project/LanguageUse";
 
 import Layout from "../layouts/Layout";

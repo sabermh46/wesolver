@@ -1,5 +1,5 @@
 import React from "react";
-import SlickSlider from "../SlickSlider/SlickSlider";
+//import SlickSlider from "../SlickSlider/SlickSlider";
 
 const MyClientArea = () => {
   
