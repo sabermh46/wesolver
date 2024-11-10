@@ -2931,7 +2931,7 @@ label {
   margin: 0 -10px;
 }
 .tools-item-wrap .row [class*="col-"] {
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 .tools-item {
   background: var(--tg-black-two);
@@ -2941,7 +2941,7 @@ label {
   margin-bottom: 20px;
 }
 .tools-icon {
-  margin-bottom: 75px;
+  margin-bottom: 15px;
   transform: translateY(0px);
   transition: 0.3s linear;
 }

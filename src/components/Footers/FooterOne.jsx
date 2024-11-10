@@ -53,7 +53,7 @@ const FooterOne = () => {
                   <div className="fw-link">
                     <ul className="list-wrap">
                       <li>
-                        <Link to="/index">Home</Link>
+                        <Link to="/">Home</Link>
                       </li>
                       <li>
                         <Link to="/about-us">About</Link>
@@ -100,7 +100,7 @@ const FooterOne = () => {
                       </li>
                       <li>
                         <img src="/img/icon/mail_icon.svg" alt="" />
-                        <a href="mailto:wesolver@gmail.com">wesolver@gmail.com</a>
+                        <a href="mailto:wesolver@gmail.com">wesolver.info@gmail.com</a>
                       </li>
                       <li>
                         <img src="/img/icon/loction_icon.svg" alt="" />

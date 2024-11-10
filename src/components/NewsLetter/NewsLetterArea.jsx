@@ -10,7 +10,7 @@ const NewsLetterArea = () => {
               <span className="sub-title">Get update</span>
               <h2 className="title">
                 Get latest updates <br />
-                and dealsi
+                and News
               </h2>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const ToolsAreaItem = ({ item }) => {
+const LanguageUseItem = ({ item }) => {
   return (
     <div className="tools-item ">
       <div className="tools-icon">
@@ -9,11 +9,9 @@ const ToolsAreaItem = ({ item }) => {
 
       <div className="tools-content">
         <h3 className="title">{item.title}</h3>
-
-        <p>{item.desc}</p>
       </div>
     </div>
   );
 };
 
-export default ToolsAreaItem;
+export default LanguageUseItem;

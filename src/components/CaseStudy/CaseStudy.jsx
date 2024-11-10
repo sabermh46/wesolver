@@ -63,8 +63,7 @@ const CaseStudy = () => {
             <div className="section-title text-center mb-65">
               <h2 className="title">Case Studies</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
+              Our case studies showcase our commitment to excellence and highlight the impact of our custom solutions. From enhancing user experiences through advanced UI/UX design to automating business processes and developing scalable web and mobile applications, 
               </p>
             </div>
           </div>

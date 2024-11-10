@@ -4,44 +4,84 @@ import ToolsAreaItem from "./ToolsAreaItem";
 const ToolsArea = () => {
   const tools = [
     {
-      src: "/img/icon/tools_icon01.png",
-      title: "Photoshop",
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
+      src: "/img/tools/Android.png",
+      title: "Android Studio",
+      desc: ``,
     },
     {
-      src: "/img/icon/tools_icon02.png",
-      title: "Illustrator",
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
+      src: "/img/tools/atom.png",
+      title: "Atom",
+      desc: ``,
     },
     {
-      src: "/img/icon/tools_icon03.png",
+      src: "/img/tools/netbeans.png",
+      title: "Netbeans",
+      desc: ``,
+    },
+    {
+      src: "/img/tools/phpstorm.png",
+      title: "PhpStorm",
+      desc: ``,
+    },
+    {
+      src: "/img/tools/pycharm.png",
+      title: "Pycharm ",
+      desc: ``,
+    },
+    {
+      src: "/img/tools/github.png",
+      title: "Github",
+      desc: ``,
+    },
+    {
+      src: "/img/tools/gitLab.png",
+      title: "GitLab",
+      desc: ``,
+    },
+    {
+      src: "/img/tools/vs.png",
+      title: "Vitual Studio",
+      desc: ``,
+    },
+    {
+      src: "/img/tools/docker.png",
+      title: "Docker",
+      desc: ``,
+    },
+    {
+      src: "/img/tools/figma.png",
       title: "Figma",
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
+      desc: ``,
     },
     {
-      src: "/img/icon/tools_icon04.png",
+      src: "/img/tools/photoshop.png",
+      title: "Adobe Photoshop",
+      desc: ``,
+    },
+    {
+      src: "/img/tools/sketch.png",
       title: "Sketch",
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
+      desc: ``,
     },
     {
-      src: "/img/icon/tools_icon05.png",
-      title: "Premeire Pro",
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-    },
-    {
-      src: "/img/icon/tools_icon06.png",
-      title: "After Effects",
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-    },
-    {
-      src: "/img/icon/tools_icon07.png",
-      title: "HTML 5",
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
-    },
-    {
-      src: "/img/icon/tools_icon08.png",
+      src: "/img/tools/blender.png",
       title: "Blender",
-      desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
+      desc: ``,
+    },
+    {
+      src: "/img/tools/vscode.png",
+      title: "Vitual Studio Code",
+      desc: ``,
+    },
+    {
+      src: "/img/tools/sublime.png",
+      title: "Sublime Text",
+      desc: ``,
+    },
+    {
+      src: "/img/tools/illustrator.png",
+      title: "Adobe Illustrator",
+      desc: ``,
     },
   ];
 
@@ -51,8 +91,7 @@ const ToolsArea = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="section-title title-style-two white-title text-center mb-50">
-              <span className="sub-title">My Tools</span>
-              <h2 className="title">What Tools I Use</h2>
+              <h2 className="title">What Tools We Use</h2>
             </div>
           </div>
         </div>

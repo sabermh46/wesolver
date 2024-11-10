@@ -4,40 +4,40 @@ import TeamAreaTwoItem from "./TeamAreaTwoItem";
 const TeamAreaThree = () => {
   const team_members = [
     {
-      src: "/img/team/inner_team01.jpg",
+      src: "/img/team/Shujon.png",
       url: "/team-details",
-      title: "Alena Rosser",
-      designation: "CEO Kawasaki Inc.",
+      title: "MD. Shujon Morol",
+      designation: "Co-founder and CEO",
     },
     {
-      src: "/img/team/inner_team02.jpg",
+      src: "/img/team/labib.png",
       url: "/team-details",
-      title: "Emerson Saris",
-      designation: "CEO Kawasaki Inc.",
+      title: "Sheikh Abu Backkar Siddiq",
+      designation: "Co-founder and CTO",
     },
     {
-      src: "/img/team/inner_team03.jpg",
+      src: "/img/team/sourav.png",
       url: "/team-details",
-      title: "Tiana Dokidis",
-      designation: "CEO Kawasaki Inc.",
+      title: "Saber Mahmud Sourav",
+      designation: "Developer",
     },
     {
-      src: "/img/team/inner_team04.jpg",
+      src: "/img/team/sonjoy.jpg",
       url: "/team-details",
-      title: "Ryan Vetrovs",
-      designation: "CEO Kawasaki Inc.",
+      title: "Roy Sonjoy",
+      designation: "Developer",
     },
     {
-      src: "/img/team/inner_team05.jpg",
+      src: "/img/team/donial.jpg",
       url: "/team-details",
-      title: "Lindsey Schleifer",
-      designation: "CEO Kawasaki Inc.",
+      title: "Donial tripura",
+      designation: "Developer",
     },
     {
-      src: "/img/team/inner_team06.jpg",
+      src: "/img/team/sazu.png",
       url: "/team-details",
-      title: "Dulce Dokidis",
-      designation: "CEO Kawasaki Inc.",
+      title: "Ismile Hossain Sazu",
+      designation: "Designer",
     },
   ];
 

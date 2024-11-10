@@ -16,8 +16,7 @@ const FooterTwo = () => {
                     </Link>
                   </div>
                   <p>
-                    Agency is a full-service agency, busy designing and building
-                    beautiful digital products, brands, and experiences.
+                  Empowering Your Vision with Technology and Innovation – We Solver, Your Trusted Software Partner..
                   </p>
                 </div>
               </div>
@@ -28,7 +27,7 @@ const FooterTwo = () => {
             <div className="row align-items-center">
               <div className="col-md-6">
                 <div className="copyright-text">
-                  <p>© 2023, Creative Agency.</p>
+                  <p>© 2024 | We Solver.</p>
                 </div>
               </div>
 
