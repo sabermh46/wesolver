@@ -85,7 +85,7 @@ const HeaderOne = () => {
         
         <div id="sticky-header" className="menu-area transparent-header">
         <div className="extra-header">
-          <p className="email">sabermahmud.sourav.7@gmail.com</p>
+          <p className="email">wesolver.info@gmail.com</p>
           <div className="right-btns">
             <div className="theme-switch light">
               <p className="round">
@@ -94,7 +94,7 @@ const HeaderOne = () => {
               </p>
             </div>
             <p className="help-line">
-              +880 1892 77 3001
+              +880 1720843651
             </p>
           </div>
         </div>
@@ -302,7 +302,7 @@ const HeaderOne = () => {
                               </div>
                               <div className="content">
                                 <a href="mailto:sheikhabubackkarsiddiq@gmail.com">
-                                sheikhabubackkarsiddiq@gmail.com
+                                wesolver.info@gmail.com
                                 </a>
                               </div>
                             </li>
