@@ -906,6 +906,9 @@
   .menu-area {
     padding: 20px 0;
   }
+  .extra-header {
+    transform: translateY(-20px);
+  }
   .menu-nav {
     justify-content: space-between;
   }

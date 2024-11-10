@@ -59,6 +59,12 @@ const HeaderOne = () => {
         $("body").toggleClass("fix");
         return false;
       });
+      $(".theme-switch").on("click", function(){
+        $(".theme-switch").toggleClass("light")
+        $(".theme-switch").toggleClass("dark")
+        $("body").toggleClass("theme-light")
+        $("body").toggleClass("theme-dark")
+      })
       $(".body-contact-overlay").on("click", function () {
         $(".header-contact-wrap, .body-contact-overlay").removeClass("active");
         $("body").removeClass("fix");
@@ -76,7 +82,22 @@ const HeaderOne = () => {
   return (
     <>
       <header>
+        
         <div id="sticky-header" className="menu-area transparent-header">
+        <div className="extra-header">
+          <p className="email">sabermahmud.sourav.7@gmail.com</p>
+          <div className="right-btns">
+            <div className="theme-switch light">
+              <p className="round">
+                <img className="sunIcon" src="/img/icon/sun.svg" alt="" />
+                <img className="moonIcon" src="/img/icon/moon.svg" alt="" />
+              </p>
+            </div>
+            <p className="help-line">
+              +880 1892 77 3001
+            </p>
+          </div>
+        </div>
           <div className="container">
             <div className="row">
               <div className="col-12">
