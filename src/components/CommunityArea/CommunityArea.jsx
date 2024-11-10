@@ -11,11 +11,7 @@ const CommunityArea = () => {
             </div>
             <div className="community-content">
               <p>
-                Lorem ipsum dolor sit amet, sed nulla ante amet, elementum
-                tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac
-                scelerisque nibh dolores consectetuer, nulla aptent est pede.
-                Scelerisque euismod varius mi, congue eget sed vestibulum,
-                ornare cras sed nec.
+              Our team is composed of industry experts, creative thinkers, and tech visionaries. Each member brings a unique blend of experience, passion, and dedication to deliver exceptional software solutions. From developers and designers to project managers and strategists, our collaborative team ensures every project is executed with precision and creativity, turning ideas into impactful realities.
               </p>
             </div>
           </div>

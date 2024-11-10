@@ -122,58 +122,22 @@ const HeaderOne = () => {
                         <li className={cn(isActiveClassName("/about-us"))}>
                           <Link to="/about-us">About Us</Link>
                         </li>
-
-                        {/* <!-- Need to modify this section.  --> */}
-                        <li
-                          className={cn(
-                            "menu-item-has-children",
-                            [
-                              "/about-me",
-                              "/team",
-                              "/team-details",
-                              "/project-details",
-                              "/services-details",
-                              "/contact",
-                            ].includes(pathname) && "active"
-                          )}
-                        >
-                          <a href="/">Services</a>
-                          <ul className="sub-menu">
-                            <li className={cn(isActiveClassName("/about-me"))}>
-                              <Link to="/about-me">Web Development </Link>
-                            </li>
-                            <li className={cn(isActiveClassName("/team"))}>
-                              <Link to="/team">App Development</Link>
-                            </li>
-                            <li
-                              className={cn(isActiveClassName("/team-details"))}
-                            >
-                              <Link to="/team-details">Software Development</Link>
-                            </li>
-                            <li
-                              className={cn(
-                                isActiveClassName("/project-details")
-                              )}
-                            >
-                              <Link to="/project-details">
-                                UI/UX Design
-                              </Link>
-                            </li>
-                            <li
-                              className={cn(
-                                isActiveClassName("/services-details")
-                              )}
-                            >
-                              <Link to="/services-details">
-                                Digital Marketing
-                              </Link>
-                            </li>
-                            <li className={cn(isActiveClassName("/contact"))}>
-                              <Link to="/contact">Software Maintenance</Link>
-                            </li>
-                          </ul>
+                        <li className={cn(isActiveClassName("/about-us"))}>
+                          <Link to="/services-details">Services</Link>
                         </li>
-
+                        <li className={cn(isActiveClassName("/about-us"))}>
+                          <Link to="/team">Team</Link>
+                        </li>
+                        <li className={cn(isActiveClassName("/about-us"))}>
+                          <Link to="/contact">Contact Us</Link>
+                        </li>
+                        <li className={cn(isActiveClassName("/about-us"))}>
+                          <Link to="/blog">Blog</Link>
+                        </li>
+                        <li className={cn(isActiveClassName("/about-us"))}>
+                          <Link to="/about-us">Careers</Link>
+                        </li>
+                        {/*
                         <li
                           className={cn(
                             "menu-item-has-children",
@@ -243,10 +207,8 @@ const HeaderOne = () => {
                             </li>
                           </ul>
                         </li>
-
-                        <li className={cn(isActiveClassName("/about-us"))}>
-                          <Link to="/about-us">Careers</Link>
-                        </li>
+                        */}
+                        
                       </ul>
                     </div>
 

@@ -13,13 +13,11 @@ const CompanyArea = () => {
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-9">
             <div className="section-title white-title text-center mb-65">
-              <span className="sub-title">Our Company</span>
               <h2 className="title">
-                We Create Creative Designs For Every Web Page
+                We Create Creative Solution For Every Buisness
               </h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
+              we develop tailored software solutions that address the unique needs of your business, driving growth and efficiency with cutting-edge technology.
               </p>
             </div>
           </div>
@@ -40,29 +38,28 @@ const CompanyArea = () => {
 
           <div className="col-lg-6">
             <div className="company-content">
-              <h2 className="title">All Your Questions Are Here</h2>
+              <h2 className="title">All Your Services Are Here</h2>
               <div className="company-list">
                 <ul className="list-wrap">
                   <li>
                     <img src="/img/icon/check_icon.png" alt="" />
-                    Seo quotes to inspire your campaign
-                  </li>
+                    Responsive and Scalable Websites                 
+                    </li>
                   <li>
                     <img src="/img/icon/check_icon.png" alt="" />
-                    Much easier to double your business
-                  </li>
+                    Intuitive and High-performing Mobile Apps                  
+                    </li>
                   <li>
                     <img src="/img/icon/check_icon.png" alt="" />
-                    Free page speed insights tool to find out exactly
-                  </li>
+                    Software Solutions for Every Business                  
+                    </li>
                   <li>
                     <img src="/img/icon/check_icon.png" alt="" />
-                    Seo quotes to inspire your campaign
-                  </li>
+                    Securing Digital Assets with Cyber Security Services                 </li>
                 </ul>
               </div>
               <a href="about-me.html" className="btn">
-                Discover More <span></span>
+                Let's Talk <span></span>
               </a>
             </div>
           </div>

@@ -7,46 +7,46 @@ import cn from "classnames";
 const InnerProjectArea = () => {
   const inner_projects = [
     {
-      url: "/project-details",
-      src1: "/img/project/inner_two_project01.jpg",
-      src2: "/img/project/inner_two_project02.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      url: "#",
+      src1: "/img/portfolio/app1.jpg",
+      src2: "/img/portfolio/app3.jpg",
+      title: "Mobile App",
+      desc: " ",
     },
     {
-      url: "/project-details",
-      src1: "/img/project/inner_two_project04.jpg",
-      src2: "/img/project/inner_two_project03.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      url: "#",
+      src1: "/img/portfolio/ecommerce1.png",
+      src2: "/img/portfolio/ecommerce2.png",
+      title: "E-Commerce",
+      desc: "",
     },
     {
-      url: "/project-details",
-      src1: "/img/project/inner_two_project05.jpg",
-      src2: "/img/project/inner_two_project06.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      url: "#",
+      src1: "/img/portfolio/web2.png",
+      src2: "/img/portfolio/web3.jpg",
+      title: "Web Design",
+      desc: "",
     },
     {
-      url: "/project-details",
-      src1: "/img/project/inner_two_project08.jpg",
-      src2: "/img/project/inner_two_project07.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      url: "#",
+      src1: "/img/portfolio/app2.png",
+      src2: "/img/portfolio/web1.jpg",
+      title: "Mobile App",
+      desc: "",
     },
     {
-      url: "/project-details",
-      src1: "/img/project/inner_two_project09.jpg",
-      src2: "/img/project/inner_two_project10.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      url: "#",
+      src1: "/img/portfolio/web4.png",
+      src2: "/img/portfolio/web5.jpg",
+      title: "Web Design",
+      desc: "",
     },
     {
-      url: "/project-details",
-      src1: "/img/project/inner_two_project08.jpg",
-      src2: "/img/project/inner_two_project07.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
+      url: "#",
+      src1: "/img/portfolio/web6.png",
+      src2: "/img/portfolio/web7.jpg",
+      title: "Web Design",
+      desc: "",
     },
   ];
 
@@ -125,10 +125,9 @@ const InnerProjectArea = () => {
         <div className="row align-items-center">
           <div className="col-md-8">
             <div className="section-title title-style-two mb-70">
-              <span className="sub-title">My Latest Project</span>
               <h2 className="title">
                 Our Best Professional <br />
-                UI/UX Design
+                Work
               </h2>
             </div>
           </div>
