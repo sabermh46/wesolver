@@ -671,7 +671,7 @@ body.theme-dark .sticky-menu {
   height: 30px;
   overflow: hidden;
   right: 20px;
-  width: 200px;
+  width: 220px;
 }
 
 .extra-header .help-line {
@@ -679,8 +679,12 @@ body.theme-dark .sticky-menu {
   right: 0;
   color: white;
   height: inherit;
-  top: 3px;
+  top: 2px;
   z-index: 9;
+}
+.help-line-text {
+  color: white;
+  font-size: 14px;
 }
 .extra-header .theme-switch {
   height: 24px;
