@@ -111,7 +111,15 @@ const HeaderOne = () => {
               </p>
             </div>
             <p className="help-line">
-              +880 1720843651
+              
+              
+              <a href="tel:8801720843651">
+              <img  src="/img/icon/call.svg" alt="Phone Icon"
+              style={{
+                height: '25px'
+              }} /> &nbsp;
+              <span className="help-line-text">+880 1720843651</span>
+              </a>
             </p>
           </div>
         </div>

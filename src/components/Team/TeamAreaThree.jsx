@@ -44,9 +44,9 @@ const TeamAreaThree = () => {
   return (
     <section className="team-area-two pt-110 pb-100">
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="myContainer">
           {team_members.map((x, index) => (
-            <div key={index} className="col-lg-4 col-md-6 col-sm-10">
+            <div key={index} className="col-lg-4 col-md-6 col-sm-10 teamArea2FH">
               <TeamAreaTwoItem item={x} className="team-item-hover" />
             </div>
           ))}

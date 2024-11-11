@@ -1352,6 +1352,9 @@
   .sticky-menu .header-contact-wrap {
     top: 94px;
   }
+  .myContainer {
+    grid-template-columns: repeat(2, 300px);
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -2100,6 +2103,25 @@
 		bottom: -52px !important;
     left: 0;
 	}
+  .myContainer {
+    grid-template-columns: repeat(1, 300px);
+  }
+  .help-line-text {
+    display: none;
+  }
+  .extra-header .email {
+    top: 5px;
+    left: 10px;
+    font-size: 12px;
+    color: white;
+  }
+  .right-btns {
+    position: absolute;
+    height: 30px;
+    overflow: hidden;
+    right: 20px;
+    width: 100px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
