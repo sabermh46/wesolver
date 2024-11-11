@@ -152,6 +152,12 @@ body {
 body.theme-dark {
   background: #1f1d28 !important;
 }
+
+body.theme-dark {
+  --tg-blue: var(--tg-secondary-color); /* Dark mode alternative for blue */
+  --tg-cultured: #0532756b; /* Dark mode alternative for cultured */
+}
+
 img,
 .img {
   max-width: 100%;
@@ -278,6 +284,10 @@ p {
   color: var(--tg-paragraph-color);
   margin-bottom: 15px;
 }
+.theme-dark p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
 hr {
   border-bottom: 1px solid var(--tg-primary-color);
   border-top: 0 none;
@@ -615,6 +625,9 @@ label {
   box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
   border-radius: 0;
 }
+body.theme-dark .sticky-menu {
+  background: #001635 !important;
+}
 .sticky-menu.menu-area {
   padding: 0 0;
 }
@@ -686,7 +699,7 @@ label {
   background: #f4f5ff;
 }
 .theme-switch.dark {
-  background: #0a007c;
+  background: #425100;
 }
 .theme-switch .round {
   height: calc(100% - 4px);
@@ -1213,6 +1226,9 @@ label {
   line-height: 1;
   color: var(--tg-banner-title-color);
 }
+.theme-dark .breadcrumb-content .title {
+  color: white;
+}
 .breadcrumb-content .breadcrumb {
   display: inline-flex;
   flex-wrap: wrap;
@@ -1683,6 +1699,9 @@ label {
   font-size: 18px;
   text-transform: capitalize;
   width: 80%;
+}
+.theme-dark .slider-content p {
+  color: rgba(255, 255, 255, 0.75);
 }
 .slider-btn {
   display: flex;
@@ -3150,6 +3169,9 @@ label {
   margin-bottom: 60px;
   width: 75%;
 }
+.theme-dark .team-content p {
+  color: rgba(255, 255, 255, 0.75);
+}
 .team-img-wrap {
   position: relative;
   text-align: center;
@@ -3242,6 +3264,9 @@ label {
 .team-item .team-content .title {
   margin-bottom: 5px;
   font-size: 16px;
+}
+.theme-dark .team-item .team-content .title a {
+  color: var(--tg-secondary-color);
 }
 .team-item .team-content span {
   display: block;
@@ -4747,6 +4772,10 @@ label {
   border: 1px solid var(--tg-border-color);
   padding: 62px 58px 44px;
 }
+.theme-dark .consultation-form-wrap {
+  background: #2b344f;
+  border: 1px solid hsl(225, 49%, 61%);
+}
 .consultation-form-wrap .title {
   font-weight: 500;
   font-size: 30px;
@@ -5111,6 +5140,12 @@ label {
   font-size: 18px;
   margin-bottom: 13px;
   line-height: 1.44;
+}
+.theme-dark .blog-post-content .title a {
+  color: rgba(0, 0, 0, 0.63);
+}
+.theme-dark .blog-post-content .title a:hover {
+  color: var(--tg-secondary-color);
 }
 .blog-meta .list-wrap {
   display: flex;

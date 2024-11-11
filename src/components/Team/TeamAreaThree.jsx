@@ -16,7 +16,7 @@ const TeamAreaThree = () => {
       designation: "Co-founder and CTO",
     },
     {
-      src: "/img/team/sourav.png",
+      src: "/img/team/saber.jpg",
       url: "/team-details",
       title: "Saber Mahmud Sourav",
       designation: "Developer",

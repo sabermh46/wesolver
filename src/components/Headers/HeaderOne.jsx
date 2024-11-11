@@ -1,10 +1,26 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import $ from "jquery";
 import { Link, useLocation } from "react-router-dom";
 import cn from "classnames";
 
 const HeaderOne = () => {
+
+  const [storedTheme, setTheme] = useState(localStorage.getItem("we-solver-theme") || "light")
+
+  console.log(storedTheme);
+  
   useEffect(() => {
+    if (storedTheme === "dark") {
+      $("body").addClass("theme-dark").removeClass("theme-light");
+    } else {
+      $("body").addClass("theme-light").removeClass("theme-dark");
+    }
+    console.log(storedTheme)
+  }, [storedTheme]);
+
+
+  useEffect(() => {
+
     /*=============================================
 	=     Menu sticky & Scroll to top      =
 =============================================*/
@@ -59,19 +75,20 @@ const HeaderOne = () => {
         $("body").toggleClass("fix");
         return false;
       });
-      $(".theme-switch").on("click", function(){
-        $(".theme-switch").toggleClass("light")
-        $(".theme-switch").toggleClass("dark")
-        $("body").toggleClass("theme-light")
-        $("body").toggleClass("theme-dark")
-      })
+
+      $(".theme-switch").on("click", function () {
+        const newTheme = storedTheme === "dark" ? "light" : "dark";
+        setTheme(newTheme);
+        localStorage.setItem("we-solver-theme", newTheme);
+      });
+
       $(".body-contact-overlay").on("click", function () {
         $(".header-contact-wrap, .body-contact-overlay").removeClass("active");
         $("body").removeClass("fix");
         return false;
       });
     });
-  }, []);
+  }, [storedTheme]);
 
   const { pathname } = useLocation();
 
@@ -87,7 +104,7 @@ const HeaderOne = () => {
         <div className="extra-header">
           <p className="email">wesolver.info@gmail.com</p>
           <div className="right-btns">
-            <div className="theme-switch light">
+            <div className={`theme-switch ${storedTheme}`}>
               <p className="round">
                 <img className="sunIcon" src="/img/icon/sun.svg" alt="" />
                 <img className="moonIcon" src="/img/icon/moon.svg" alt="" />
@@ -137,77 +154,7 @@ const HeaderOne = () => {
                         <li className={cn(isActiveClassName("/about-us"))}>
                           <Link to="/about-us">Careers</Link>
                         </li>
-                        {/*
-                        <li
-                          className={cn(
-                            "menu-item-has-children",
-                            [
-                              "/about-me",
-                              "/team",
-                              "/team-details",
-                              "/project-details",
-                              "/services-details",
-                              "/contact",
-                            ].includes(pathname) && "active"
-                          )}
-                        >
-                          <a href="/">pages</a>
-                          <ul className="sub-menu">
-                            <li className={cn(isActiveClassName("/about-me"))}>
-                              <Link to="/about-me">About Me</Link>
-                            </li>
-                            <li className={cn(isActiveClassName("/team"))}>
-                              <Link to="/team">Team Page</Link>
-                            </li>
-                            <li
-                              className={cn(isActiveClassName("/team-details"))}
-                            >
-                              <Link to="/team-details">Team Details</Link>
-                            </li>
-                            <li
-                              className={cn(
-                                isActiveClassName("/project-details")
-                              )}
-                            >
-                              <Link to="/project-details">
-                                Portfolio Details
-                              </Link>
-                            </li>
-                            <li
-                              className={cn(
-                                isActiveClassName("/services-details")
-                              )}
-                            >
-                              <Link to="/services-details">
-                                Services Details
-                              </Link>
-                            </li>
-                            <li className={cn(isActiveClassName("/contact"))}>
-                              <Link to="/contact">Contact Us</Link>
-                            </li>
-                          </ul>
-                        </li>
-
-                        <li
-                          className={cn(
-                            "menu-item-has-children",
-                            ["/blog", "/blog-details"].includes(pathname) &&
-                              "active"
-                          )}
-                        >
-                          <a href="/">News</a>
-                          <ul className="sub-menu">
-                            <li className={cn(isActiveClassName("/blog"))}>
-                              <Link to="/blog">Our Blog</Link>
-                            </li>
-                            <li
-                              className={cn(isActiveClassName("/blog-details"))}
-                            >
-                              <Link to="/blog-details">Blog Details</Link>
-                            </li>
-                          </ul>
-                        </li>
-                        */}
+                        
                         
                       </ul>
                     </div>
