@@ -6,8 +6,8 @@ import cn from "classnames";
 const HeaderOne = () => {
 
   const [storedTheme, setTheme] = useState(localStorage.getItem("we-solver-theme") || "light")
+  const [mobileMenuInitialized, setMobileMenuInitialized] = useState(false);
 
-  console.log(storedTheme);
   
   useEffect(() => {
     if (storedTheme === "dark") {
@@ -43,11 +43,13 @@ const HeaderOne = () => {
     }
 
     //Mobile Nav Hide Show
-    if ($(".mobile-menu").length) {
-      var mobileMenuContent = $(".menu-area .main-menu").html();
+    // Initialize mobile menu only once
+    if (!mobileMenuInitialized && $(".mobile-menu").length) {
+      const mobileMenuContent = $(".menu-area .main-menu").html();
       $(".mobile-menu .menu-box .menu-outer").append(mobileMenuContent);
+      setMobileMenuInitialized(true);
 
-      //Dropdown Button
+      // Dropdown Button
       $(".mobile-menu li.menu-item-has-children .dropdown-btn").on(
         "click",
         function () {
@@ -55,12 +57,13 @@ const HeaderOne = () => {
           $(this).prev("ul").slideToggle(300);
         }
       );
-      //Menu Toggle Btn
+
+      // Menu Toggle Btn
       $(".mobile-nav-toggler").on("click", function () {
         $("body").addClass("mobile-menu-visible");
       });
 
-      //Menu Toggle Btn
+      // Menu Toggle Btn
       $(".menu-backdrop, .mobile-menu .close-btn").on("click", function () {
         $("body").removeClass("mobile-menu-visible");
       });
