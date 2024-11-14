@@ -55,7 +55,7 @@ const ConsultationAreaForm = () => {
           basic_form: formData
         }
         
-        const response = await axios.post("https://b3.rnzgoldenventure.com/api/fill-up-form", data);
+        const response = await axios.post("https://server1.wesolver.net/api/fill-up-form", data);
         alert("Form submitted successfully!");
         setFormData({ name: "", email_add: "", phone: "", subject: "" }); // Clear form after submission
         console.log(response.data);
