@@ -91,7 +91,7 @@ const HeaderOne = () => {
         return false;
       });
     });
-  }, [storedTheme]);
+  }, [mobileMenuInitialized, storedTheme]);
 
   const { pathname } = useLocation();
 
