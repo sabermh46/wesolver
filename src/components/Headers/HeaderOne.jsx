@@ -105,7 +105,7 @@ const HeaderOne = () => {
         
         <div id="sticky-header" className="menu-area transparent-header">
         <div className="extra-header">
-          <p className="email">wesolver.info@gmail.com</p>
+          <p className="email"><a href="mailto:info@wesolver.net">info@wesolver.net</a></p>
           <div className="right-btns">
             <div className={`theme-switch ${storedTheme}`}>
               <p className="round">

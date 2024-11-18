@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const FooterOne = () => {
+  const curr_year = new Date().getFullYear().toString()
   return (
     <footer>
       <div className="footer-area">
@@ -123,7 +124,7 @@ const FooterOne = () => {
               </div>
               <div className="col-md-6">
                 <div className="copyright-text text-end">
-                  <p>© 2023 We Solver. All Rights Reserved</p>
+                  <p>© {curr_year} We Solver. All Rights Reserved</p>
                 </div>
               </div>
             </div>
