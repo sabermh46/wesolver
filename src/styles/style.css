@@ -518,7 +518,16 @@ label {
 }
 .navbar-wrap > ul > li.active > a,
 .navbar-wrap > ul > li:hover > a {
-  color: var(--tg-primary-color);
+  color: var(--tg-secondary-color) !important;
+}
+.navbar-wrap ul li.active::before {
+  content: '';
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  bottom: 20px;
+  background: #2f589c;
+  border-radius: 100px;
 }
 .navbar-wrap > ul > li.menu-item-has-children > a::after {
   content: "\f078";
@@ -3573,6 +3582,9 @@ body.theme-dark .sticky-menu {
     rgba(244, 250, 255, 0.688169) 79.47%,
     rgba(248, 252, 255, 0) 93.09%
   );
+}
+.theme-dark .counter-area-three {
+  background: linear-gradient(360deg, rgba(242, 250, 255, 0) 3.82%, rgb(18 100 158 / 87%) 48.56%, #3527d7 63.29%, rgb(0 7 13 / 69%) 79.47%, rgb(6 255 19 / 0%) 93.09%);
 }
 .counter-content-three p {
   margin-bottom: 30px;
