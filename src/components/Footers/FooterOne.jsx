@@ -92,7 +92,7 @@ const FooterOne = () => {
               </div>
               <div className="col-lg-3 col-sm-6">
                 <div className="footer-widget">
-                  <h4 className="fw-title">About Store</h4>
+                  <h4 className="fw-title">Contact Information</h4>
                   <div className="footer-about">
                     <ul className="list-wrap">
                       <li>
@@ -124,7 +124,7 @@ const FooterOne = () => {
               </div>
               <div className="col-md-6">
                 <div className="copyright-text text-end">
-                  <p>© {curr_year} We Solver. All Rights Reserved</p>
+                  <p>© 2023 We Solver. All Rights Reserved</p>
                 </div>
               </div>
             </div>
